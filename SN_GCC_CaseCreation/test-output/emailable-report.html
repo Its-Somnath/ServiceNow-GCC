@@ -1,0 +1,1074 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">33</td><td class="numi">33</td><td class="numi">0</td><td class="numi">0</td><td class="numi">237.7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Default test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="33">scripts.GCC_mainScript</td><td><a href="#m1"><b>mainScript</b>  ("Main script")</a></td><td class="numi">6</td><td>1503471665978</td><td class="numi">61671</td></tr><tr class="passedodd"><td><a href="#m2"><b>mainScript</b>  ("Main script")</a></td><td class="numi">6</td><td>1503471665978</td><td class="numi">61671</td></tr><tr class="passedodd"><td><a href="#m3"><b>mainScript</b>  ("Main script")</a></td><td class="numi">6</td><td>1503471665978</td><td class="numi">61671</td></tr><tr class="passedodd"><td><a href="#m4"><b>mainScript</b>  ("Main script")</a></td><td class="numi">6</td><td>1503471665978</td><td class="numi">61671</td></tr><tr class="passedodd"><td><a href="#m5"><b>mainScript</b>  ("Main script")</a></td><td class="numi">6</td><td>1503471665978</td><td class="numi">61671</td></tr><tr class="passedodd"><td><a href="#m6"><b>mainScript</b>  ("Main script")</a></td><td class="numi">6</td><td>1503471665978</td><td class="numi">61671</td></tr><tr class="passedodd"><td><a href="#m7"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503471727794</td><td class="numi">175044</td></tr><tr class="passedodd"><td><a href="#m8"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503471727794</td><td class="numi">175044</td></tr><tr class="passedodd"><td><a href="#m9"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503471727794</td><td class="numi">175044</td></tr><tr class="passedodd"><td><a href="#m10"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503471727794</td><td class="numi">175044</td></tr><tr class="passedodd"><td><a href="#m11"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503471727794</td><td class="numi">175044</td></tr><tr class="passedodd"><td><a href="#m12"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503471727794</td><td class="numi">175044</td></tr><tr class="passedodd"><td><a href="#m13"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503471727794</td><td class="numi">175044</td></tr><tr class="passedodd"><td><a href="#m14"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503471727794</td><td class="numi">175044</td></tr><tr class="passedodd"><td><a href="#m15"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503471727794</td><td class="numi">175044</td></tr><tr class="passedodd"><td><a href="#m16"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503471727794</td><td class="numi">175044</td></tr><tr class="passedodd"><td><a href="#m17"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503471727794</td><td class="numi">175044</td></tr><tr class="passedodd"><td><a href="#m18"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503471727794</td><td class="numi">175044</td></tr><tr class="passedodd"><td><a href="#m19"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503471727794</td><td class="numi">175044</td></tr><tr class="passedodd"><td><a href="#m20"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503471727794</td><td class="numi">175044</td></tr><tr class="passedodd"><td><a href="#m21"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503471727794</td><td class="numi">175044</td></tr><tr class="passedodd"><td><a href="#m22"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503471727794</td><td class="numi">175044</td></tr><tr class="passedodd"><td><a href="#m23"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503471727794</td><td class="numi">175044</td></tr><tr class="passedodd"><td><a href="#m24"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503471727794</td><td class="numi">175044</td></tr><tr class="passedodd"><td><a href="#m25"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503471727794</td><td class="numi">175044</td></tr><tr class="passedodd"><td><a href="#m26"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503471727794</td><td class="numi">175044</td></tr><tr class="passedodd"><td><a href="#m27"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503471727794</td><td class="numi">175044</td></tr><tr class="passedodd"><td><a href="#m28"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503471727794</td><td class="numi">175044</td></tr><tr class="passedodd"><td><a href="#m29"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503471727794</td><td class="numi">175044</td></tr><tr class="passedodd"><td><a href="#m30"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503471727794</td><td class="numi">175044</td></tr><tr class="passedodd"><td><a href="#m31"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503471727794</td><td class="numi">175044</td></tr><tr class="passedodd"><td><a href="#m32"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503471727794</td><td class="numi">175044</td></tr><tr class="passedodd"><td><a href="#m33"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503471727794</td><td class="numi">175044</td></tr>
+</table>
+<h1>Default test</h1>
+<h2 id="m1">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>y</td>
+<td>BEST BUY, INC.</td>
+<td>9940088554</td>
+<td>North America</td>
+<td>HRO Services</td>
+<td>HR Operations</td>
+<td>North America</td>
+<td>Rest of US</td>
+<td>Chadwick, Sondra L.</td>
+<td>Marthaler, Greg M.</td>
+<td>Stovall, T. Kenneth</td>
+<td>Chadwick, Sondra L.</td>
+<td>01-Jun-2009</td>
+<td>29-Feb-2020</td>
+<td>NO</td>
+<td>Tejaswi Ganamukala</td>
+<td>ELM, General Service Delivery Issue, Other, Payroll, Talent Acquisition</td>
+<td>ELM</td>
+<td>Other@Incorrect Redundancy/Severance /Exit processed@Incorrect Calculation &amp; Payment of Bonus/Merit hikes/Employee Stock Options@Incorrect mass upload / Manual updating with employee, employment &amp; Salary details@Incorrect New Hire set up/Benefits/Leave enrollment@Incorrect mass communication</td>
+<td>Incorrect mass communication</td>
+<td>Test</td>
+<td>1 - Critical</td>
+<td>2017-08-23</td>
+<td>2017-08-26 04:50:51</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="24">
+<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong>Info</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The INCIDENT number is = INC0001674</td></tr></tbody></table><br/>
+<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>Incident INC0001674 has been created for client - BEST BUY, INC.</td></tr></tbody></table><br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>FACEBOOK INC.</td>
+<td>9940126635</td>
+<td>North America</td>
+<td>F&amp;A Outsourcing</td>
+<td>F&amp;A</td>
+<td>EALA</td>
+<td>Poland</td>
+<td>Orpiszewska, Beata</td>
+<td>Rodriguez, Rene A.</td>
+<td>Master, Jal</td>
+<td>Tyne, Raymond J.</td>
+<td>01-Aug-2011</td>
+<td>31-Dec-2019</td>
+<td>NO</td>
+<td>Tejaswi Ganamukala</td>
+<td></td>
+<td>P2P</td>
+<td></td>
+<td>PO sent to wrong supplier</td>
+<td>Test</td>
+<td>1 - Critical</td>
+<td>2017-08-23</td>
+<td>2017-08-26 04:50:51</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>DEUTSCHE BANK</td>
+<td>9940002413</td>
+<td>EALA</td>
+<td>S2P SERVICE DELIVERY</td>
+<td>Sourcing and Procurement</td>
+<td>EALA</td>
+<td>UK</td>
+<td>Smith, Jacqueline E.</td>
+<td>Burton, Jonathan D.</td>
+<td></td>
+<td>Grandhi, Viswanadham</td>
+<td>01-Jan-2004</td>
+<td>31-Dec-2016</td>
+<td>NO</td>
+<td>Tejaswi Ganamukala</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Test</td>
+<td>1 - Critical</td>
+<td>2017-08-23</td>
+<td>2017-08-26 04:50:51</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>CIGNA</td>
+<td>9940141627</td>
+<td>North America</td>
+<td>Cigna - Cypress</td>
+<td>Sourcing and Procurement</td>
+<td>APAC</td>
+<td>India Bangalore</td>
+<td>Iddimi, Sharath</td>
+<td>Demko, Michael</td>
+<td>Fernandez, Clark J. S.</td>
+<td>Fernandez, Clark J. S.</td>
+<td>11-Mar-2012</td>
+<td>30-Sep-2018</td>
+<td>NO</td>
+<td>Tejaswi Ganamukala</td>
+<td>Other</td>
+<td>Other</td>
+<td>Other</td>
+<td>Other</td>
+<td>Test</td>
+<td>3 - Medium</td>
+<td>2017-08-23</td>
+<td>2017-08-26 04:50:51</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>HP INC.</td>
+<td>9940190682</td>
+<td>North America</td>
+<td>C3PO Mobilization</td>
+<td>Customer Service</td>
+<td>EALA</td>
+<td>Romania</td>
+<td>Baescu, Victor</td>
+<td>Collins, Michael F.</td>
+<td>Stovall, T. Kenneth</td>
+<td>Sayyad, Arshad</td>
+<td>09-Feb-2015</td>
+<td>31-Oct-2023</td>
+<td>YES</td>
+<td>Tejaswi Ganamukala</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Test</td>
+<td>1 - Critical</td>
+<td>2017-08-23</td>
+<td>2017-08-26 04:50:51</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">scripts.GCC_mainScript:mainScript</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th><th>Parameter #25</th><th>Parameter #26</th><th>Parameter #27</th><th>Parameter #28</th><th>Parameter #29</th></tr>
+<tr class="param stripe"><td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>AETNA</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Healthcare</td>
+<td></td>
+<td></td>
+<td>Rana, Rajesh</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Tejaswi Ganamukala</td>
+<td>Other</td>
+<td>Other</td>
+<td>Other</td>
+<td>Other</td>
+<td>Test</td>
+<td>3 - Medium</td>
+<td>2017-08-23</td>
+<td>2017-08-26 04:50:51</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>y</td>
+<td>LIBERTY GLOBAL</td>
+<td>9940176202</td>
+<td>EALA</td>
+<td>Shared Services BPO P2P</td>
+<td>Sourcing and Procurement</td>
+<td>EALA</td>
+<td>Slovakia</td>
+<td>Lacova, Zuzana</td>
+<td>De Groot, Hans</td>
+<td>Viswathmula, Ravindra</td>
+<td>De Groot, Hans</td>
+<td>28-May-2014</td>
+<td>31-Dec-2021</td>
+<td>YES</td>
+<td>Tejaswi Ganamukala</td>
+<td></td>
+<td>Other</td>
+<td></td>
+<td>Other</td>
+<td>Test</td>
+<td>1 - Critical</td>
+<td>2017-08-23</td>
+<td>2017-08-26 04:50:51</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="24">
+<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong>Info</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The INCIDENT number is = INC0001676</td></tr></tbody></table><br/>
+<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>Incident INC0001676 has been created for client - LIBERTY GLOBAL</td></tr></tbody></table><br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>MICROSOFT CORPORATION</td>
+<td>9940221150</td>
+<td>EALA</td>
+<td>Microsoft One Finance Master Contract</td>
+<td>F&amp;A</td>
+<td>EALA</td>
+<td>Buenos Aires</td>
+<td>Civale, Pablo A.</td>
+<td>Wright, Joseph A.</td>
+<td>Lakshminarasimhan, C.</td>
+<td>Wright, Joseph A.</td>
+<td>09-Feb-2007</td>
+<td>30-Jun-2025</td>
+<td>NO</td>
+<td>Tejaswi Ganamukala</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Test</td>
+<td>1 - Critical</td>
+<td>2017-08-23</td>
+<td>2017-08-26 04:50:51</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">scripts.GCC_mainScript:mainScript</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th><th>Parameter #25</th><th>Parameter #26</th><th>Parameter #27</th><th>Parameter #28</th><th>Parameter #29</th></tr>
+<tr class="param stripe"><td>y</td>
+<td>Chrome</td>
+<td>https://accentureplcuksubdev4.service-now.com</td>
+<td>a.f.srivastava1</td>
+<td>Welcome1</td>
+<td></td>
+<td>Deepak Nagpal</td>
+<td>India</td>
+<td>test description mar 29 -3</td>
+<td>TOP/Standard/BPO/Marriott</td>
+<td>BEST BUY, INC.</td>
+<td>Chadwick, Sondra L.</td>
+<td>Demo Test</td>
+<td>Chicago</td>
+<td>Test</td>
+<td>Test CI</td>
+<td>Email</td>
+<td>Demo</td>
+<td></td>
+<td>01-May-2025</td>
+<td>test_may-25</td>
+<td>Active</td>
+<td>Demo ITIL</td>
+<td>Solved (Work Around)</td>
+<td>incidentReport_may25</td>
+<td>Report source</td>
+<td>Column</td>
+<td>Approval group</td>
+<td>Demo Res Cat</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="29">
+<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong>Info</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>Successfully launched the Google Chrome browser</td></tr></tbody></table><br/>
+<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>Successfully navigated to ServiceNow Home page</td></tr><tr><td colspan=2><table width= 100% ;rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong>Screenshot</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong><a href="C:\Users\somnath.bhunia\work1\SN_GCC/\Screenshot\08-23-2017_12-57.png"><img src="file:///C:\Users\somnath.bhunia\work1\SN_GCC/\Screenshot\08-23-2017_12-57.png" alt=""height='300' width='300' border =1/> <br /></strong></td></tr></tbody></table></td></tr></tbody></table><br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">scripts.GCC_mainScript:mainScript</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th><th>Parameter #25</th><th>Parameter #26</th><th>Parameter #27</th><th>Parameter #28</th><th>Parameter #29</th></tr>
+<tr class="param stripe"><td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>HP INC.</td>
+<td>9940216501</td>
+<td>North America</td>
+<td>HPI:Sales &amp;Partner Learning University</td>
+<td>Talent - Learning</td>
+<td>APAC</td>
+<td>India Mumbai</td>
+<td>Cherla Sastry, Anita</td>
+<td>Passow, Ashley E.</td>
+<td>Neumann, Paul J.</td>
+<td>Jones, Erica J.</td>
+<td>18-Apr-2016</td>
+<td>30-Nov-2021</td>
+<td>NO</td>
+<td>Tejaswi Ganamukala</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Test</td>
+<td>1 - Critical</td>
+<td>2017-08-23</td>
+<td>2017-08-26 04:50:51</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">scripts.GCC_mainScript:mainScript</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th><th>Parameter #25</th><th>Parameter #26</th><th>Parameter #27</th><th>Parameter #28</th><th>Parameter #29</th></tr>
+<tr class="param stripe"><td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">scripts.GCC_mainScript:mainScript</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th><th>Parameter #25</th><th>Parameter #26</th><th>Parameter #27</th><th>Parameter #28</th><th>Parameter #29</th></tr>
+<tr class="param stripe"><td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>AETNA</td>
+<td>9940020779</td>
+<td>North America</td>
+<td>Aetna SBC</td>
+<td>Healthcare</td>
+<td>APAC</td>
+<td>Philippines</td>
+<td>Sy, Jeannette G.</td>
+<td>Wright, Keith B.</td>
+<td>Dcosta, Veron Romeo</td>
+<td>Dcosta, Veron Romeo</td>
+<td>12-May-2005</td>
+<td>31-May-2020</td>
+<td>NO</td>
+<td>Tejaswi Ganamukala</td>
+<td>Other</td>
+<td>Other</td>
+<td>Other</td>
+<td>Other</td>
+<td>Test</td>
+<td>3 - Medium</td>
+<td>2017-08-23</td>
+<td>2017-08-26 04:50:51</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>PROCTER AND GAMBLE</td>
+<td>9940137930</td>
+<td>North America</td>
+<td>P&amp;G - Accenture One BPO Commercial Frame</td>
+<td>Digital Marketing</td>
+<td>APAC</td>
+<td>India Mumbai</td>
+<td>Fernando, John</td>
+<td>Akalin, Emre</td>
+<td></td>
+<td>Fernando, John</td>
+<td>01-Feb-2012</td>
+<td>28-Feb-2020</td>
+<td>NO</td>
+<td>Tejaswi Ganamukala</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Test</td>
+<td>2 - High</td>
+<td>2017-08-23</td>
+<td>2017-08-26 04:50:51</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>ANTHEM, INC.</td>
+<td>9940131575</td>
+<td>North America</td>
+<td>Anthem BPO MSA</td>
+<td>Healthcare</td>
+<td>APAC</td>
+<td>India Chennai</td>
+<td>Chamoli, Sanjay</td>
+<td>Friedman, Lauren E.</td>
+<td>Mani, Ramesh K.</td>
+<td>Sajan, Nizar</td>
+<td>01-Oct-2011</td>
+<td>31-Dec-2019</td>
+<td>NO</td>
+<td>Tejaswi Ganamukala</td>
+<td>Other</td>
+<td>Other</td>
+<td>Other</td>
+<td>Other</td>
+<td>Test</td>
+<td>3 - Medium</td>
+<td>2017-08-23</td>
+<td>2017-08-26 04:50:51</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>MONDELEZ INTERNATIONAL INC.</td>
+<td>9940187226</td>
+<td>North America</td>
+<td>GBS Operations Delivery</td>
+<td>F&amp;A</td>
+<td>APAC</td>
+<td>India Delhi</td>
+<td>Sareen, Amit</td>
+<td>Rubin, Craig D.</td>
+<td>Sundaresan, Kannan</td>
+<td>Tewari, Neeta</td>
+<td>08-Dec-2014</td>
+<td>08-Jun-2020</td>
+<td>YES</td>
+<td>Tejaswi Ganamukala</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Test</td>
+<td>1 - Critical</td>
+<td>2017-08-23</td>
+<td>2017-08-26 04:50:51</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>MONDELEZ INTERNATIONAL INC.</td>
+<td>9940196228</td>
+<td>North America</td>
+<td>Mondelez - STP</td>
+<td>F&amp;A</td>
+<td>EALA</td>
+<td>Romania</td>
+<td>Jalba, Florentina</td>
+<td>Rubin, Craig D.</td>
+<td>Sundaresan, Kannan</td>
+<td>Tewari, Neeta</td>
+<td>01-Jun-2015</td>
+<td>31-Aug-2020</td>
+<td>YES</td>
+<td>Tejaswi Ganamukala</td>
+<td></td>
+<td>YES</td>
+<td></td>
+<td>YES</td>
+<td>Test</td>
+<td>2 - High</td>
+<td>2017-08-23</td>
+<td>2017-08-26 04:50:51</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>DEUTSCHE BANK</td>
+<td>9940223046</td>
+<td>EALA</td>
+<td>Deutsche Bank - KYC Remediation</td>
+<td>Emerging - Industry Specific</td>
+<td>EALA</td>
+<td>UK</td>
+<td>Gent, Adam</td>
+<td>Crossley, Julian C.</td>
+<td></td>
+<td>Gent, Adam</td>
+<td>10-Aug-2016</td>
+<td>28-Feb-2018</td>
+<td>YES</td>
+<td>Tejaswi Ganamukala</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Test</td>
+<td>2 - High</td>
+<td>2017-08-23</td>
+<td>2017-08-26 04:50:51</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>MICROSOFT CORPORATION</td>
+<td>9940176934</td>
+<td>EALA</td>
+<td>CS GLOBAL WWCS AND WOCS</td>
+<td>F&amp;A</td>
+<td>APAC</td>
+<td>Greater China</td>
+<td>Piao, Guangwen</td>
+<td>Wright, Joseph A.</td>
+<td>Lakshminarasimhan, C.</td>
+<td>Wright, Joseph A.</td>
+<td>01-Jun-2014</td>
+<td>31-Aug-2021</td>
+<td>NO</td>
+<td>Tejaswi Ganamukala</td>
+<td></td>
+<td>NO</td>
+<td></td>
+<td>NO</td>
+<td>Test</td>
+<td>2 - High</td>
+<td>2017-08-23</td>
+<td>2017-08-26 04:50:51</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>GOOGLE</td>
+<td>9940149989</td>
+<td>North America</td>
+<td>FP&amp;A Wave 1+2</td>
+<td>F&amp;A</td>
+<td>APAC</td>
+<td>India Bangalore</td>
+<td>Das, Partish</td>
+<td>Satpute, Jitendra</td>
+<td>Arora, Manoj</td>
+<td></td>
+<td>09-Nov-2012</td>
+<td>31-Dec-2017</td>
+<td>NO</td>
+<td>Tejaswi Ganamukala</td>
+<td></td>
+<td>P2P</td>
+<td></td>
+<td>Catalog wrong pricing</td>
+<td>Test</td>
+<td>2 - High</td>
+<td>2017-08-23</td>
+<td>2017-08-26 04:50:51</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>FACEBOOK INC.</td>
+<td>9940126635</td>
+<td>North America</td>
+<td>F&amp;A Outsourcing</td>
+<td>HR Operations</td>
+<td>APAC</td>
+<td>Philippines</td>
+<td>Simon, Adelina D.</td>
+<td>Lee, Davin</td>
+<td>Master, Jal</td>
+<td>Larkins, Craig Ashley</td>
+<td>01-Aug-2011</td>
+<td>31-Dec-2019</td>
+<td>NO</td>
+<td>Tejaswi Ganamukala</td>
+<td></td>
+<td>Payroll</td>
+<td></td>
+<td>Incorrect Tax remittance</td>
+<td>Test</td>
+<td>3 - Medium</td>
+<td>2017-08-23</td>
+<td>2017-08-26 04:50:51</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>BAKER HUGHES INCORPORATED</td>
+<td>9940079319</td>
+<td>North America</td>
+<td>FAO BTO</td>
+<td>F&amp;A</td>
+<td>EALA</td>
+<td>Buenos Aires</td>
+<td>Portela, Andrea K.</td>
+<td>Sharpe, Keith D.</td>
+<td>Collado, Victoria B.</td>
+<td>Collado, Victoria B.</td>
+<td>01-Dec-2008</td>
+<td>31-Dec-2021</td>
+<td>NO</td>
+<td>Tejaswi Ganamukala</td>
+<td></td>
+<td>R2R</td>
+<td></td>
+<td>Missing Month End Close timelines</td>
+<td>Test</td>
+<td>3 - Medium</td>
+<td>2017-08-23</td>
+<td>2017-08-26 04:50:51</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m25">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>PROCTER AND GAMBLE</td>
+<td>9940194850</td>
+<td>North America</td>
+<td>P&amp;G Duracell</td>
+<td>Sourcing and Procurement</td>
+<td>North America</td>
+<td>Costa Rica</td>
+<td>Díaz, Alberto</td>
+<td>Winters, Julie H.</td>
+<td></td>
+<td>Hegde, Nagachanda J.</td>
+<td>18-May-2015</td>
+<td>31-Dec-2018</td>
+<td>NO</td>
+<td>Tejaswi Ganamukala</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Test</td>
+<td>2 - High</td>
+<td>2017-08-23</td>
+<td>2017-08-26 04:50:51</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m26">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>VATTENFALL</td>
+<td>9940216892</td>
+<td>EALA</td>
+<td>BPO Customer Operations</td>
+<td>Utilities</td>
+<td>APAC</td>
+<td>Philippines</td>
+<td>Bedaña, Dova Teresa C.</td>
+<td>Stoelenga, Peter</td>
+<td></td>
+<td>Stoelenga, Peter</td>
+<td>01-Apr-2016</td>
+<td>31-Dec-2017</td>
+<td>NO</td>
+<td>Tejaswi Ganamukala</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Test</td>
+<td>2 - High</td>
+<td>2017-08-23</td>
+<td>2017-08-26 04:50:51</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m27">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>BEST BUY, INC.</td>
+<td>9940088554</td>
+<td>North America</td>
+<td>BBY-  F&amp;ABPO Transition</td>
+<td>F&amp;A</td>
+<td>North America</td>
+<td>Rest of US</td>
+<td>Krishnan, Ananda</td>
+<td>Marthaler, Greg M.</td>
+<td>Stovall, T. Kenneth</td>
+<td>Chadwick, Sondra L.</td>
+<td>01-Jun-2009</td>
+<td>29-Feb-2020</td>
+<td>NO</td>
+<td>Tejaswi Ganamukala</td>
+<td></td>
+<td>ALL</td>
+<td></td>
+<td>Data Breach/Privacy Issues</td>
+<td>Test</td>
+<td>3 - Medium</td>
+<td>2017-08-23</td>
+<td>2017-08-26 04:50:51</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m28">scripts.GCC_mainScript:mainScript</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th><th>Parameter #25</th><th>Parameter #26</th><th>Parameter #27</th><th>Parameter #28</th><th>Parameter #29</th></tr>
+<tr class="param stripe"><td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Click here to update Client data mappings ----&gt;</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m29">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>GOOGLE</td>
+<td>9940211737</td>
+<td>North America</td>
+<td>WSIGGoogle Payroll Support Extension</td>
+<td>HR Operations</td>
+<td>APAC</td>
+<td>Rest of APAC (Indo, Malay, Singa, Japan)</td>
+<td>Narsai, Dipesh</td>
+<td>Ramkelwan, Nival</td>
+<td>Master, Jal</td>
+<td>Master, Jal</td>
+<td>01-Feb-2016</td>
+<td>31-Dec-2017</td>
+<td>NO</td>
+<td>Tejaswi Ganamukala</td>
+<td></td>
+<td>Talent Acquisition</td>
+<td></td>
+<td>Incorrect offer letter provided</td>
+<td>Test</td>
+<td>3 - Medium</td>
+<td>2017-08-23</td>
+<td>2017-08-26 04:50:51</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m30">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>ANTHEM, INC.</td>
+<td>9940168924</td>
+<td>North America</td>
+<td>WLP Health Mgmt BPO</td>
+<td>Healthcare</td>
+<td>APAC</td>
+<td>Philippines</td>
+<td>Velasco, Lizzy D.</td>
+<td>Friedman, Lauren E.</td>
+<td>Mani, Ramesh K.</td>
+<td>Velasco, Lizzy D.</td>
+<td>13-Feb-2014</td>
+<td>28-Feb-2018</td>
+<td>NO</td>
+<td>Tejaswi Ganamukala</td>
+<td>Other</td>
+<td>Other</td>
+<td>Other</td>
+<td>Other</td>
+<td>Test</td>
+<td>3 - Medium</td>
+<td>2017-08-23</td>
+<td>2017-08-26 04:50:51</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m31">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>CIGNA</td>
+<td>9940199823</td>
+<td>North America</td>
+<td>Platinum - CIGNA</td>
+<td>Healthcare</td>
+<td>APAC</td>
+<td>Philippines</td>
+<td>Fernandez, Clark J. S.</td>
+<td>Demko, Michael</td>
+<td>Fernandez, Clark J. S.</td>
+<td>Fernandez, Clark J. S.</td>
+<td>01-Sep-2015</td>
+<td>31-Aug-2018</td>
+<td>NO</td>
+<td>Tejaswi Ganamukala</td>
+<td>Other</td>
+<td>Other</td>
+<td>Other</td>
+<td>Other</td>
+<td>Test</td>
+<td>3 - Medium</td>
+<td>2017-08-23</td>
+<td>2017-08-26 04:50:51</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m32">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>LIBERTY GLOBAL</td>
+<td>9940184027</td>
+<td>EALA</td>
+<td>Jaguar</td>
+<td>F&amp;A</td>
+<td>APAC</td>
+<td>India Bangalore</td>
+<td>Acharya, Praveen</td>
+<td>Rangarajan, Rashmi</td>
+<td>Viswathmula, Ravindra</td>
+<td>Kumar, A. X.</td>
+<td>01-Nov-2014</td>
+<td>25-Jun-2019</td>
+<td>NO</td>
+<td>Tejaswi Ganamukala</td>
+<td></td>
+<td>P2P</td>
+<td></td>
+<td>Duplicate Payments</td>
+<td>Test</td>
+<td>3 - Medium</td>
+<td>2017-08-23</td>
+<td>2017-08-26 04:50:51</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m33">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>BAKER HUGHES INCORPORATED</td>
+<td>9940079319</td>
+<td>North America</td>
+<td>FAO BTO</td>
+<td>F&amp;A</td>
+<td>APAC</td>
+<td>Philippines</td>
+<td>Baltazar, Jerilee A.</td>
+<td>Sharpe, Keith D.</td>
+<td>Collado, Victoria B.</td>
+<td>Collado, Victoria B.</td>
+<td>01-Dec-2008</td>
+<td>31-Dec-2021</td>
+<td>NO</td>
+<td>Tejaswi Ganamukala</td>
+<td></td>
+<td>FP&amp;A</td>
+<td></td>
+<td>Missing Budgeting &amp; Forecast submission timelines</td>
+<td>Test</td>
+<td>2 - High</td>
+<td>2017-08-23</td>
+<td>2017-08-26 04:50:51</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

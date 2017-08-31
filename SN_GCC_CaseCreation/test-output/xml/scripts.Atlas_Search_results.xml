@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="20.734">
+  <properties />
+  
+  
+            <testcase name="search" time="7.586" classname="scripts.Atlas_Search" />
+                <testcase name="search" time="6.158" classname="scripts.Atlas_Search" />
+                <testcase name="search" time="6.990" classname="scripts.Atlas_Search" />
+      
+</testsuite>

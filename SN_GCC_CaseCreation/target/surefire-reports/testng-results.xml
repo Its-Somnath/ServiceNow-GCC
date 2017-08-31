@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong>Info</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>Successfully launched the Google Chrome browser</td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>Successfully navigated to ServiceNow Home page</td></tr><tr><td colspan=2><table width= 100% ;rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong>Screenshot</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong><a href="C:\Users\a.f.srivastava\workspace_selenium\ITSM_regression/\Screenshot\03-29-2017_15-46.png"><img src="file:///C:\Users\a.f.srivastava\workspace_selenium\ITSM_regression/\Screenshot\03-29-2017_15-46.png" alt=""height='300' width='300' border =1/> <br /></strong></td></tr></tbody></table></td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong>Info</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The INCIDENT number is = INC0064103</td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=Auto-Generated Event is found in the dropdown!</td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=Email is found in the dropdown!</td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=Instant Messaging/Chat is found in the dropdown!</td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=Phone is found in the dropdown!</td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=Self-service is found in the dropdown!</td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=Support Team is found in the dropdown!</td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=Voicemail is found in the dropdown!</td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=Walk-in is found in the dropdown!</td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=New is found in the dropdown!</td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=Active is found in the dropdown!</td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=Work In Progress is found in the dropdown!</td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=Awaiting Problem is found in the dropdown!</td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=Awaiting User Info is found in the dropdown!</td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=Awaiting Evidence is found in the dropdown!</td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=Awaiting Change is found in the dropdown!</td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=Awaiting External 3rd Party Action is found in the dropdown!</td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=Resolved is found in the dropdown!</td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=Closed is found in the dropdown!</td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=Cancelled is found in the dropdown!</td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The Agreed Resolution Time field is present in the Stats tab</td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The Resolution Reason field is present in the Closure Information tab</td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=Duplicate is found in the dropdown!</td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=Enhancement is found in the dropdown!</td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=NFA Resolved By Forward Group is found in the dropdown!</td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=NFA Resolved By Service Desk is found in the dropdown!</td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The SLA Breach Reason field is present in the Closure Information tab</td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:red;font-size:12px;font-family:verdana;\><strong>Fail</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value =Complex/Time Consuming cannot be found in the dropdown!</td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:red;font-size:12px;font-family:verdana;\><strong>Fail</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value =Hardware Replacement Delay cannot be found in the dropdown!</td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:red;font-size:12px;font-family:verdana;\><strong>Fail</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value =High Assignee Workload cannot be found in the dropdown!</td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:red;font-size:12px;font-family:verdana;\><strong>Fail</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value =Incorrect Ticket Assignment/Classification cannot be found in the dropdown!</td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:red;font-size:12px;font-family:verdana;\><strong>Fail</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value =Other cannot be found in the dropdown!</td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:red;font-size:12px;font-family:verdana;\><strong>Fail</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value =Pending Internal Approvals cannot be found in the dropdown!</td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:red;font-size:12px;font-family:verdana;\><strong>Fail</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value =Resolved through Integration cannot be found in the dropdown!</td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:red;font-size:12px;font-family:verdana;\><strong>Fail</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value =Shift Handover Delay cannot be found in the dropdown!</td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:red;font-size:12px;font-family:verdana;\><strong>Fail</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value =Status Update delay cannot be found in the dropdown!</td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:red;font-size:12px;font-family:verdana;\><strong>Fail</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value =Ticket Assignment Delay-SD cannot be found in the dropdown!</td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:red;font-size:12px;font-family:verdana;\><strong>Fail</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value =Ticket Re-Assignment Delay-Domain cannot be found in the dropdown!</td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:red;font-size:12px;font-family:verdana;\><strong>Fail</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value =Tool Related Issue cannot be found in the dropdown!</td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The INCIDENT number INC0064103 has been created.</td></tr></tbody></table>]]>
+    </line>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong>Info</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>Successfully closing the Driver</td></tr></tbody></table>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="352344" started-at="2017-03-29T09:52:36Z" finished-at="2017-03-29T09:58:29Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="352344" started-at="2017-03-29T09:52:36Z" finished-at="2017-03-29T09:58:29Z">
+      <class name="scripts.WQM_acceptance">
+        <test-method status="PASS" signature="mainScript(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:scripts.WQM_acceptance@1b0d6fe]" name="mainScript" duration-ms="347501" started-at="2017-03-29T15:22:37Z" description="Main script" data-provider="WQM_config" finished-at="2017-03-29T15:28:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://accentureplcuktest.service-now.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[a.f.srivastava]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Welcome1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Deepak Nagpal]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[test description mar 29 -3]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[TOP/Standard/BPO/Marriott]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Demo]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Demo Test]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Chicago]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Test CI]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Email]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Demo Tier 1]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[test feb 08- 1]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[test feb 08- 1]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[Demo ITIL]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Solved (Work Around)]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[incidentReport_jan20]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[Report source]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[Column]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[Approval group]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong>Info</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>Successfully launched the Google Chrome browser</td></tr></tbody></table>]]>
+            </line>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>Successfully navigated to ServiceNow Home page</td></tr><tr><td colspan=2><table width= 100% ;rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong>Screenshot</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong><a href="C:\Users\a.f.srivastava\workspace_selenium\ITSM_regression/\Screenshot\03-29-2017_15-46.png"><img src="file:///C:\Users\a.f.srivastava\workspace_selenium\ITSM_regression/\Screenshot\03-29-2017_15-46.png" alt=""height='300' width='300' border =1/> <br /></strong></td></tr></tbody></table></td></tr></tbody></table>]]>
+            </line>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong>Info</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The INCIDENT number is = INC0064103</td></tr></tbody></table>]]>
+            </line>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=Auto-Generated Event is found in the dropdown!</td></tr></tbody></table>]]>
+            </line>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=Email is found in the dropdown!</td></tr></tbody></table>]]>
+            </line>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=Instant Messaging/Chat is found in the dropdown!</td></tr></tbody></table>]]>
+            </line>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=Phone is found in the dropdown!</td></tr></tbody></table>]]>
+            </line>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=Self-service is found in the dropdown!</td></tr></tbody></table>]]>
+            </line>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=Support Team is found in the dropdown!</td></tr></tbody></table>]]>
+            </line>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=Voicemail is found in the dropdown!</td></tr></tbody></table>]]>
+            </line>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=Walk-in is found in the dropdown!</td></tr></tbody></table>]]>
+            </line>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=New is found in the dropdown!</td></tr></tbody></table>]]>
+            </line>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=Active is found in the dropdown!</td></tr></tbody></table>]]>
+            </line>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=Work In Progress is found in the dropdown!</td></tr></tbody></table>]]>
+            </line>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=Awaiting Problem is found in the dropdown!</td></tr></tbody></table>]]>
+            </line>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=Awaiting User Info is found in the dropdown!</td></tr></tbody></table>]]>
+            </line>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=Awaiting Evidence is found in the dropdown!</td></tr></tbody></table>]]>
+            </line>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=Awaiting Change is found in the dropdown!</td></tr></tbody></table>]]>
+            </line>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=Awaiting External 3rd Party Action is found in the dropdown!</td></tr></tbody></table>]]>
+            </line>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=Resolved is found in the dropdown!</td></tr></tbody></table>]]>
+            </line>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=Closed is found in the dropdown!</td></tr></tbody></table>]]>
+            </line>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=Cancelled is found in the dropdown!</td></tr></tbody></table>]]>
+            </line>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The Agreed Resolution Time field is present in the Stats tab</td></tr></tbody></table>]]>
+            </line>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The Resolution Reason field is present in the Closure Information tab</td></tr></tbody></table>]]>
+            </line>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=Duplicate is found in the dropdown!</td></tr></tbody></table>]]>
+            </line>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=Enhancement is found in the dropdown!</td></tr></tbody></table>]]>
+            </line>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=NFA Resolved By Forward Group is found in the dropdown!</td></tr></tbody></table>]]>
+            </line>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value=NFA Resolved By Service Desk is found in the dropdown!</td></tr></tbody></table>]]>
+            </line>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The SLA Breach Reason field is present in the Closure Information tab</td></tr></tbody></table>]]>
+            </line>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:red;font-size:12px;font-family:verdana;\><strong>Fail</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value =Complex/Time Consuming cannot be found in the dropdown!</td></tr></tbody></table>]]>
+            </line>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:red;font-size:12px;font-family:verdana;\><strong>Fail</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value =Hardware Replacement Delay cannot be found in the dropdown!</td></tr></tbody></table>]]>
+            </line>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:red;font-size:12px;font-family:verdana;\><strong>Fail</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value =High Assignee Workload cannot be found in the dropdown!</td></tr></tbody></table>]]>
+            </line>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:red;font-size:12px;font-family:verdana;\><strong>Fail</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value =Incorrect Ticket Assignment/Classification cannot be found in the dropdown!</td></tr></tbody></table>]]>
+            </line>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:red;font-size:12px;font-family:verdana;\><strong>Fail</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value =Other cannot be found in the dropdown!</td></tr></tbody></table>]]>
+            </line>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:red;font-size:12px;font-family:verdana;\><strong>Fail</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value =Pending Internal Approvals cannot be found in the dropdown!</td></tr></tbody></table>]]>
+            </line>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:red;font-size:12px;font-family:verdana;\><strong>Fail</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value =Resolved through Integration cannot be found in the dropdown!</td></tr></tbody></table>]]>
+            </line>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:red;font-size:12px;font-family:verdana;\><strong>Fail</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value =Shift Handover Delay cannot be found in the dropdown!</td></tr></tbody></table>]]>
+            </line>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:red;font-size:12px;font-family:verdana;\><strong>Fail</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value =Status Update delay cannot be found in the dropdown!</td></tr></tbody></table>]]>
+            </line>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:red;font-size:12px;font-family:verdana;\><strong>Fail</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value =Ticket Assignment Delay-SD cannot be found in the dropdown!</td></tr></tbody></table>]]>
+            </line>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:red;font-size:12px;font-family:verdana;\><strong>Fail</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value =Ticket Re-Assignment Delay-Domain cannot be found in the dropdown!</td></tr></tbody></table>]]>
+            </line>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:red;font-size:12px;font-family:verdana;\><strong>Fail</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The value =Tool Related Issue cannot be found in the dropdown!</td></tr></tbody></table>]]>
+            </line>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The INCIDENT number INC0064103 has been created.</td></tr></tbody></table>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- mainScript -->
+        <test-method status="PASS" signature="closeTheAction()[pri:0, instance:scripts.WQM_acceptance@1b0d6fe]" name="closeTheAction" is-config="true" duration-ms="4380" started-at="2017-03-29T15:28:24Z" finished-at="2017-03-29T15:28:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong>Info</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>Successfully closing the Driver</td></tr></tbody></table>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeTheAction -->
+      </class> <!-- scripts.WQM_acceptance -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

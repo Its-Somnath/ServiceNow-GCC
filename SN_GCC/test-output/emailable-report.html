@@ -1,0 +1,1951 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">74</td><td class="numi">74</td><td class="numi">0</td><td class="numi">0</td><td class="numi">152.7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Default test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="74">scripts.GCC_mainScript</td><td><a href="#m1"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503492437307</td><td class="numi">54778</td></tr><tr class="passedodd"><td><a href="#m2"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503492437307</td><td class="numi">54778</td></tr><tr class="passedodd"><td><a href="#m3"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503492437307</td><td class="numi">54778</td></tr><tr class="passedodd"><td><a href="#m4"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503492437307</td><td class="numi">54778</td></tr><tr class="passedodd"><td><a href="#m5"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503492437307</td><td class="numi">54778</td></tr><tr class="passedodd"><td><a href="#m6"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503492437307</td><td class="numi">54778</td></tr><tr class="passedodd"><td><a href="#m7"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503492437307</td><td class="numi">54778</td></tr><tr class="passedodd"><td><a href="#m8"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503492437307</td><td class="numi">54778</td></tr><tr class="passedodd"><td><a href="#m9"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503492437307</td><td class="numi">54778</td></tr><tr class="passedodd"><td><a href="#m10"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503492437307</td><td class="numi">54778</td></tr><tr class="passedodd"><td><a href="#m11"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503492437307</td><td class="numi">54778</td></tr><tr class="passedodd"><td><a href="#m12"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503492437307</td><td class="numi">54778</td></tr><tr class="passedodd"><td><a href="#m13"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503492437307</td><td class="numi">54778</td></tr><tr class="passedodd"><td><a href="#m14"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503492437307</td><td class="numi">54778</td></tr><tr class="passedodd"><td><a href="#m15"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503492437307</td><td class="numi">54778</td></tr><tr class="passedodd"><td><a href="#m16"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503492437307</td><td class="numi">54778</td></tr><tr class="passedodd"><td><a href="#m17"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503492437307</td><td class="numi">54778</td></tr><tr class="passedodd"><td><a href="#m18"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503492437307</td><td class="numi">54778</td></tr><tr class="passedodd"><td><a href="#m19"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503492437307</td><td class="numi">54778</td></tr><tr class="passedodd"><td><a href="#m20"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503492437307</td><td class="numi">54778</td></tr><tr class="passedodd"><td><a href="#m21"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503492437307</td><td class="numi">54778</td></tr><tr class="passedodd"><td><a href="#m22"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503492437307</td><td class="numi">54778</td></tr><tr class="passedodd"><td><a href="#m23"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503492437307</td><td class="numi">54778</td></tr><tr class="passedodd"><td><a href="#m24"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503492437307</td><td class="numi">54778</td></tr><tr class="passedodd"><td><a href="#m25"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503492437307</td><td class="numi">54778</td></tr><tr class="passedodd"><td><a href="#m26"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503492437307</td><td class="numi">54778</td></tr><tr class="passedodd"><td><a href="#m27"><b>clientData</b>  ("Client data creation")</a></td><td class="numi">27</td><td>1503492437307</td><td class="numi">54778</td></tr><tr class="passedodd"><td><a href="#m28"><b>clientDataConfiguration</b>  ("Client data mappings verification")</a></td><td class="numi">11</td><td>1503492437129</td><td class="numi">62</td></tr><tr class="passedodd"><td><a href="#m29"><b>clientDataConfiguration</b>  ("Client data mappings verification")</a></td><td class="numi">11</td><td>1503492437129</td><td class="numi">62</td></tr><tr class="passedodd"><td><a href="#m30"><b>clientDataConfiguration</b>  ("Client data mappings verification")</a></td><td class="numi">11</td><td>1503492437129</td><td class="numi">62</td></tr><tr class="passedodd"><td><a href="#m31"><b>clientDataConfiguration</b>  ("Client data mappings verification")</a></td><td class="numi">11</td><td>1503492437129</td><td class="numi">62</td></tr><tr class="passedodd"><td><a href="#m32"><b>clientDataConfiguration</b>  ("Client data mappings verification")</a></td><td class="numi">11</td><td>1503492437129</td><td class="numi">62</td></tr><tr class="passedodd"><td><a href="#m33"><b>clientDataConfiguration</b>  ("Client data mappings verification")</a></td><td class="numi">11</td><td>1503492437129</td><td class="numi">62</td></tr><tr class="passedodd"><td><a href="#m34"><b>clientDataConfiguration</b>  ("Client data mappings verification")</a></td><td class="numi">11</td><td>1503492437129</td><td class="numi">62</td></tr><tr class="passedodd"><td><a href="#m35"><b>clientDataConfiguration</b>  ("Client data mappings verification")</a></td><td class="numi">11</td><td>1503492437129</td><td class="numi">62</td></tr><tr class="passedodd"><td><a href="#m36"><b>clientDataConfiguration</b>  ("Client data mappings verification")</a></td><td class="numi">11</td><td>1503492437129</td><td class="numi">62</td></tr><tr class="passedodd"><td><a href="#m37"><b>clientDataConfiguration</b>  ("Client data mappings verification")</a></td><td class="numi">11</td><td>1503492437129</td><td class="numi">62</td></tr><tr class="passedodd"><td><a href="#m38"><b>clientDataConfiguration</b>  ("Client data mappings verification")</a></td><td class="numi">11</td><td>1503492437129</td><td class="numi">62</td></tr><tr class="passedodd"><td><a href="#m39"><b>mainScript</b>  ("Main script")</a></td><td class="numi">6</td><td>1503492392881</td><td class="numi">44147</td></tr><tr class="passedodd"><td><a href="#m40"><b>mainScript</b>  ("Main script")</a></td><td class="numi">6</td><td>1503492392881</td><td class="numi">44147</td></tr><tr class="passedodd"><td><a href="#m41"><b>mainScript</b>  ("Main script")</a></td><td class="numi">6</td><td>1503492392881</td><td class="numi">44147</td></tr><tr class="passedodd"><td><a href="#m42"><b>mainScript</b>  ("Main script")</a></td><td class="numi">6</td><td>1503492392881</td><td class="numi">44147</td></tr><tr class="passedodd"><td><a href="#m43"><b>mainScript</b>  ("Main script")</a></td><td class="numi">6</td><td>1503492392881</td><td class="numi">44147</td></tr><tr class="passedodd"><td><a href="#m44"><b>mainScript</b>  ("Main script")</a></td><td class="numi">6</td><td>1503492392881</td><td class="numi">44147</td></tr><tr class="passedodd"><td><a href="#m45"><b>mappingForFA</b>  ("Watchlist")</a></td><td class="numi">13</td><td>1503492492428</td><td class="numi">52374</td></tr><tr class="passedodd"><td><a href="#m46"><b>mappingForFA</b>  ("Watchlist")</a></td><td class="numi">13</td><td>1503492492428</td><td class="numi">52374</td></tr><tr class="passedodd"><td><a href="#m47"><b>mappingForFA</b>  ("Watchlist")</a></td><td class="numi">13</td><td>1503492492428</td><td class="numi">52374</td></tr><tr class="passedodd"><td><a href="#m48"><b>mappingForFA</b>  ("Watchlist")</a></td><td class="numi">13</td><td>1503492492428</td><td class="numi">52374</td></tr><tr class="passedodd"><td><a href="#m49"><b>mappingForFA</b>  ("Watchlist")</a></td><td class="numi">13</td><td>1503492492428</td><td class="numi">52374</td></tr><tr class="passedodd"><td><a href="#m50"><b>mappingForFA</b>  ("Watchlist")</a></td><td class="numi">13</td><td>1503492492428</td><td class="numi">52374</td></tr><tr class="passedodd"><td><a href="#m51"><b>mappingForFA</b>  ("Watchlist")</a></td><td class="numi">13</td><td>1503492492428</td><td class="numi">52374</td></tr><tr class="passedodd"><td><a href="#m52"><b>mappingForFA</b>  ("Watchlist")</a></td><td class="numi">13</td><td>1503492492428</td><td class="numi">52374</td></tr><tr class="passedodd"><td><a href="#m53"><b>mappingForFA</b>  ("Watchlist")</a></td><td class="numi">13</td><td>1503492492428</td><td class="numi">52374</td></tr><tr class="passedodd"><td><a href="#m54"><b>mappingForFA</b>  ("Watchlist")</a></td><td class="numi">13</td><td>1503492492428</td><td class="numi">52374</td></tr><tr class="passedodd"><td><a href="#m55"><b>mappingForFA</b>  ("Watchlist")</a></td><td class="numi">13</td><td>1503492492428</td><td class="numi">52374</td></tr><tr class="passedodd"><td><a href="#m56"><b>mappingForFA</b>  ("Watchlist")</a></td><td class="numi">13</td><td>1503492492428</td><td class="numi">52374</td></tr><tr class="passedodd"><td><a href="#m57"><b>mappingForFA</b>  ("Watchlist")</a></td><td class="numi">13</td><td>1503492492428</td><td class="numi">52374</td></tr><tr class="passedodd"><td><a href="#m58"><b>mappingForHRL</b>  ("Data_mappings")</a></td><td class="numi">17</td><td>1503492492168</td><td class="numi">139</td></tr><tr class="passedodd"><td><a href="#m59"><b>mappingForHRL</b>  ("Data_mappings")</a></td><td class="numi">17</td><td>1503492492168</td><td class="numi">139</td></tr><tr class="passedodd"><td><a href="#m60"><b>mappingForHRL</b>  ("Data_mappings")</a></td><td class="numi">17</td><td>1503492492168</td><td class="numi">139</td></tr><tr class="passedodd"><td><a href="#m61"><b>mappingForHRL</b>  ("Data_mappings")</a></td><td class="numi">17</td><td>1503492492168</td><td class="numi">139</td></tr><tr class="passedodd"><td><a href="#m62"><b>mappingForHRL</b>  ("Data_mappings")</a></td><td class="numi">17</td><td>1503492492168</td><td class="numi">139</td></tr><tr class="passedodd"><td><a href="#m63"><b>mappingForHRL</b>  ("Data_mappings")</a></td><td class="numi">17</td><td>1503492492168</td><td class="numi">139</td></tr><tr class="passedodd"><td><a href="#m64"><b>mappingForHRL</b>  ("Data_mappings")</a></td><td class="numi">17</td><td>1503492492168</td><td class="numi">139</td></tr><tr class="passedodd"><td><a href="#m65"><b>mappingForHRL</b>  ("Data_mappings")</a></td><td class="numi">17</td><td>1503492492168</td><td class="numi">139</td></tr><tr class="passedodd"><td><a href="#m66"><b>mappingForHRL</b>  ("Data_mappings")</a></td><td class="numi">17</td><td>1503492492168</td><td class="numi">139</td></tr><tr class="passedodd"><td><a href="#m67"><b>mappingForHRL</b>  ("Data_mappings")</a></td><td class="numi">17</td><td>1503492492168</td><td class="numi">139</td></tr><tr class="passedodd"><td><a href="#m68"><b>mappingForHRL</b>  ("Data_mappings")</a></td><td class="numi">17</td><td>1503492492168</td><td class="numi">139</td></tr><tr class="passedodd"><td><a href="#m69"><b>mappingForHRL</b>  ("Data_mappings")</a></td><td class="numi">17</td><td>1503492492168</td><td class="numi">139</td></tr><tr class="passedodd"><td><a href="#m70"><b>mappingForHRL</b>  ("Data_mappings")</a></td><td class="numi">17</td><td>1503492492168</td><td class="numi">139</td></tr><tr class="passedodd"><td><a href="#m71"><b>mappingForHRL</b>  ("Data_mappings")</a></td><td class="numi">17</td><td>1503492492168</td><td class="numi">139</td></tr><tr class="passedodd"><td><a href="#m72"><b>mappingForHRL</b>  ("Data_mappings")</a></td><td class="numi">17</td><td>1503492492168</td><td class="numi">139</td></tr><tr class="passedodd"><td><a href="#m73"><b>mappingForHRL</b>  ("Data_mappings")</a></td><td class="numi">17</td><td>1503492492168</td><td class="numi">139</td></tr><tr class="passedodd"><td><a href="#m74"><b>mappingForHRL</b>  ("Data_mappings")</a></td><td class="numi">17</td><td>1503492492168</td><td class="numi">139</td></tr>
+</table>
+<h1>Default test</h1>
+<h2 id="m1">scripts.GCC_mainScript:clientDataConfiguration</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>BEST BUY, INC.</td>
+<td>HRO Services</td>
+<td>Chadwick, Sondra L.</td>
+<td>HR Operations</td>
+<td>ELM,General Service Delivery Issue,Other,Payroll,Talent Acquisition</td>
+<td>ELM</td>
+<td>None&gt;Other&gt;Incorrect Redundancy/Severance /Exit processed&gt;Incorrect Calculation &amp; Payment of Bonus/Merit hikes/Employee Stock Options&gt;Incorrect mass upload / Manual updating with employee, employment &amp; Salary details&gt;Incorrect New Hire set up/Benefits/Leave enrollment&gt;Incorrect mass communication</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>FACEBOOK INC.</td>
+<td>9940126635</td>
+<td>North America</td>
+<td>F&amp;A Outsourcing</td>
+<td>HR Operations</td>
+<td>APAC</td>
+<td>Philippines</td>
+<td>Simon, Adelina D.</td>
+<td>Lee, Davin</td>
+<td>Master, Jal</td>
+<td>Larkins, Craig Ashley</td>
+<td>01-Aug-2011</td>
+<td>31-Dec-2019</td>
+<td>NO</td>
+<td>Demo agent</td>
+<td></td>
+<td>Payroll</td>
+<td></td>
+<td>Incorrect Tax remittance</td>
+<td>Test</td>
+<td>3 - Medium</td>
+<td>2017-08-23</td>
+<td>2017-09-02 12:28:19</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">scripts.GCC_mainScript:mappingForFA</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>F&amp;A</td>
+<td>P2P</td>
+<td>Duplicate Payments</td>
+<td>1. Duplicate payments made to single/multiple vendor
+2. Duplicate payment was made on DD/MM/YY, for an XX amount to YY vendor. 
+3. Repeated duplicate payment made to the same supplier within the last 6 months - X times</td>
+<td>Client/Accenture</td>
+<td># Notify Client &amp; leadership with the initial assessment.
+# Initiate recovery action or future payment stop - as per the standard process agreed with the client
+# Perform RCA and Issue Detailed assessment
+# Assess the financial impact in terms of penalties</td>
+<td># Contact bank to recall the funds /cancel transfer &amp; Check if the vendor is active and has open invoices
+# Block the vendor for further payments and  Adjust the duplicate payment post approval of Vendor
+# Contact vendor for recovery if the vendor does not have any outstanding balance
+# Implement Duplicate Check tools / ATCAT to identify duplicate payments as a part of the process (if not existing)</td>
+<td># &lt;$100k 
+
+# $100k to $&lt;500k
+
+# &gt;$500k</td>
+<td>Critical</td>
+<td>5 days</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>MICROSOFT CORPORATION</td>
+<td>9940221150</td>
+<td>EALA</td>
+<td>Microsoft One Finance Master Contract</td>
+<td>F&amp;A</td>
+<td>EALA</td>
+<td>Buenos Aires</td>
+<td>Civale, Pablo A.</td>
+<td>Wright, Joseph A.</td>
+<td>Lakshminarasimhan, C.</td>
+<td>Wright, Joseph A.</td>
+<td>09-Feb-2007</td>
+<td>30-Jun-2025</td>
+<td>NO</td>
+<td>Demo agent</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Test</td>
+<td>1 - Critical</td>
+<td>2017-08-23</td>
+<td>2017-09-02 12:28:19</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>GOOGLE</td>
+<td>9940149989</td>
+<td>North America</td>
+<td>FP&amp;A Wave 1+2</td>
+<td>F&amp;A</td>
+<td>APAC</td>
+<td>India Bangalore</td>
+<td>Das, Partish</td>
+<td>Satpute, Jitendra</td>
+<td>Arora, Manoj</td>
+<td></td>
+<td>09-Nov-2012</td>
+<td>31-Dec-2017</td>
+<td>NO</td>
+<td>Demo agent</td>
+<td></td>
+<td>P2P</td>
+<td></td>
+<td>Catalog wrong pricing</td>
+<td>Test</td>
+<td>2 - High</td>
+<td>2017-08-23</td>
+<td>2017-09-02 12:28:19</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>VATTENFALL</td>
+<td>9940216892</td>
+<td>EALA</td>
+<td>BPO Customer Operations</td>
+<td>Utilities</td>
+<td>APAC</td>
+<td>Philippines</td>
+<td>Bedaña, Dova Teresa C.</td>
+<td>Stoelenga, Peter</td>
+<td></td>
+<td>Stoelenga, Peter</td>
+<td>01-Apr-2016</td>
+<td>31-Dec-2017</td>
+<td>NO</td>
+<td>Demo agent</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Test</td>
+<td>2 - High</td>
+<td>2017-08-23</td>
+<td>2017-09-02 12:28:19</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">scripts.GCC_mainScript:clientDataConfiguration</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>y</td>
+<td>BEST BUY, INC.</td>
+<td>BBY-  F&amp;ABPO Transition</td>
+<td>Krishnan, Ananda</td>
+<td>F&amp;A</td>
+<td>ALL,FP&amp;A,O2C,Other,P2P,R2R</td>
+<td>O2C</td>
+<td>None&gt;Other&gt;Missing Budgeting &amp; Forecast submission timelines</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">scripts.GCC_mainScript:clientDataConfiguration</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>BEST BUY, INC.</td>
+<td>HRO Services</td>
+<td>Chadwick, Sondra L.</td>
+<td>HR Operations</td>
+<td>ELM,General Service Delivery Issue,Other,Payroll,Talent Acquisition</td>
+<td>Payroll</td>
+<td>None&gt;Other&gt;Overpayment/Underpayment/No Payment&gt;Incorrect Tax remittance</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>LIBERTY GLOBAL</td>
+<td>9940176202</td>
+<td>EALA</td>
+<td>Shared Services BPO P2P</td>
+<td>Sourcing and Procurement</td>
+<td>EALA</td>
+<td>Slovakia</td>
+<td>Lacova, Zuzana</td>
+<td>De Groot, Hans</td>
+<td>Viswathmula, Ravindra</td>
+<td>De Groot, Hans</td>
+<td>28-May-2014</td>
+<td>31-Dec-2021</td>
+<td>YES</td>
+<td>Demo agent</td>
+<td></td>
+<td>Other</td>
+<td></td>
+<td>Other</td>
+<td>Test</td>
+<td>1 - Critical</td>
+<td>2017-08-23</td>
+<td>2017-09-02 12:28:19</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">scripts.GCC_mainScript:mainScript</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th><th>Parameter #25</th><th>Parameter #26</th><th>Parameter #27</th><th>Parameter #28</th><th>Parameter #29</th></tr>
+<tr class="param stripe"><td>y</td>
+<td>Chrome</td>
+<td>https://accentureplcuktest.service-now.com</td>
+<td>a.f.srivastava</td>
+<td>Welcome1</td>
+<td></td>
+<td>Deepak Nagpal</td>
+<td>India</td>
+<td>test description mar 29 -3</td>
+<td>TOP/Standard/BPO/Marriott</td>
+<td>BEST BUY, INC.</td>
+<td>Chadwick, Sondra L.</td>
+<td>Demo Test</td>
+<td>Chicago</td>
+<td>Test</td>
+<td>Test CI</td>
+<td>Email</td>
+<td>Demo</td>
+<td></td>
+<td>01-May-2025</td>
+<td>test_may-25</td>
+<td>Active</td>
+<td>Demo ITIL</td>
+<td>Solved (Work Around)</td>
+<td>incidentReport_may25</td>
+<td>Report source</td>
+<td>Column</td>
+<td>Approval group</td>
+<td>Demo Res Cat</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="29">
+<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong>Info</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>Successfully launched the Google Chrome browser</td></tr></tbody></table><br/>
+<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>Successfully navigated to ServiceNow Home page</td></tr><tr><td colspan=2><table width= 100% ;rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong>Screenshot</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong><a href="C:\Users\somnath.bhunia\workspace3\SN_GCC/\Screenshot\08-23-2017_18-05.png"><img src="file:///C:\Users\somnath.bhunia\workspace3\SN_GCC/\Screenshot\08-23-2017_18-05.png" alt=""height='300' width='300' border =1/> <br /></strong></td></tr></tbody></table></td></tr></tbody></table><br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">scripts.GCC_mainScript:mappingForHRL</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>HR Operations</td>
+<td>Talent Acquisition</td>
+<td>Delay in closing talent Requisitions for mass hire</td>
+<td>SLA breach while sourcing seasonal hire candidates, which has direct impact on client&apos;s Business</td>
+<td>Accenture</td>
+<td># Accenture Leadership within 4 hours after issue discovery
+# Inform Client POC
+# Involve Accenture Internal Recruitment Leadership to get additional help
+# Take help from Accenture Agile Workforce to source, screen profile</td>
+<td># RCA Submitted to Accenture Delivery Leadership 
+# RCA Submitted to Client within Agreed timelines.</td>
+<td># &gt; 50 Seasonal Hires</td>
+<td>High</td>
+<td>5 Days</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">scripts.GCC_mainScript:mainScript</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th><th>Parameter #25</th><th>Parameter #26</th><th>Parameter #27</th><th>Parameter #28</th><th>Parameter #29</th></tr>
+<tr class="param stripe"><td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">scripts.GCC_mainScript:mappingForHRL</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>HR Operations</td>
+<td>General Service Delivery Issue</td>
+<td>Data Privacy Issue/Incident</td>
+<td>1. Incorrect email/fax to wrong recipient with PII data, Stolen Laptop etc.)</td>
+<td>Accenture</td>
+<td># ASOC Team contacted and Incident raised
+# Accenture Leadership notified within 2 hours after issue discovery 
+# Assess the  potential Business and  financial impact in terms of penalties as per Contract Liability Clause
+# Take corrective actions  - making correction, sending correct information to the recipient. 
+# Inform the HR POC about the issue
+# Client notified after receiving go ahead from ASOC Team and Accenture Leadership.</td>
+<td># RCA (Find out point of failure) &amp; Preventive actions Submitted to Accenture Delivery Leadership 
+# RCA Submitted to Client within Agreed timelines.
+# Increase awareness of the teams on Data Privacy
+# Involve HR for any disciplinary actions</td>
+<td>#NA</td>
+<td>Critical</td>
+<td>2 Days</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">scripts.GCC_mainScript:clientDataConfiguration</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>BEST BUY, INC.</td>
+<td>HRO Services</td>
+<td>Chadwick, Sondra L.</td>
+<td>HR Operations</td>
+<td>ELM,General Service Delivery Issue,Other,Payroll,Talent Acquisition</td>
+<td>Talent Acquisition</td>
+<td>None&gt;Other&gt;Delay in closing talent Requisitions for mass hire&gt;Delay in VIP/Sr. Talent requisition closure&gt;Incorrect offer letter provided&gt;Delay in Hiring resources for critical project</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>MONDELEZ INTERNATIONAL INC.</td>
+<td>9940196228</td>
+<td>North America</td>
+<td>Mondelez - STP</td>
+<td>F&amp;A</td>
+<td>EALA</td>
+<td>Romania</td>
+<td>Jalba, Florentina</td>
+<td>Rubin, Craig D.</td>
+<td>Sundaresan, Kannan</td>
+<td>Tewari, Neeta</td>
+<td>01-Jun-2015</td>
+<td>31-Aug-2020</td>
+<td>YES</td>
+<td>Demo agent</td>
+<td></td>
+<td>YES</td>
+<td></td>
+<td>YES</td>
+<td>Test</td>
+<td>2 - High</td>
+<td>2017-08-23</td>
+<td>2017-09-02 12:28:19</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">scripts.GCC_mainScript:mappingForHRL</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>HR Operations</td>
+<td>Payroll</td>
+<td>Overpayment/Underpayment/No Payment</td>
+<td>1. Incorrect payment impacting  country /region/ geographical scope 
+2. Incorrect payment impacting identified individual(s) cases</td>
+<td>Client/Accenture</td>
+<td># Accenture Leadership within 2 hours after issue discovery.
+# Assess the  potential Business and  financial impact in terms of penalties as per Contract Liability Clause
+# Inform Client POC 
+# Work with Client POC in recouping the incorrect amounts/paying the incorrect amounts</td>
+<td># RCA (Find out point of failure) &amp; Preventive actions Submitted to Accenture Delivery Leadership 
+# RCA Submitted to Client within Agreed timelines.
+# Involve HR for any disciplinary actions</td>
+<td># &gt;25 employees
+or &gt; $50,000</td>
+<td>High</td>
+<td>3 Days</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">scripts.GCC_mainScript:mappingForFA</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th></tr>
+<tr class="param stripe"><td>y</td>
+<td>F&amp;A</td>
+<td>ALL</td>
+<td>Data Breach/Privacy Issues</td>
+<td>1. Any fraudulent actions - Fraud of xx value was done from the yy Activity and impact is zz.
+2. Inappropriate sharing of Personal Data which is against the Accenture Data Privacy policy - Data relating to xxx was shared to aa and impact is zz</td>
+<td></td>
+<td># Notify Internal Stakeholders &amp; Assess the impact
+# Raise ASOC &amp; get Guidance to share details to the Client.
+# Perform RCA and Issue Detailed assessment
+# Assess the financial impact in terms of penalties as per Contract Liability Clause
+# Inform the HR POC about the issue</td>
+<td># Make necessary Process changes to ensure the process controls are fixed
+# Take action to recover damages
+# Reach out to the ASOC team for a detailed assessment
+# Assess actioned required as per HR policies.
+# Engage client for any Master Data cleansing, Agree on a project &amp; Track to closure
+# Increase awareness of the teams on Data Privacy</td>
+<td>#&gt;0</td>
+<td>Critical</td>
+<td>2 Days</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="11">
+<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:red;font-size:12px;font-family:verdana;\><strong>Fail</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>One of the preventative task is not present</td></tr><tr><td colspan=2><table width= 100% ; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong>Screenshot</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong><a href="C:\Users\somnath.bhunia\workspace3\SN_GCC/\Screenshot\08-23-2017_18-15.png"><img src="file:///C:\Users\somnath.bhunia\workspace3\SN_GCC/\Screenshot\08-23-2017_18-15.png" alt=""height='300' width='300' border =1/> <br /></strong></td></tr></tbody></table></td></tr></tbody></table><br/>
+<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:red;font-size:12px;font-family:verdana;\><strong>Fail</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>One of the preventative task is not present</td></tr><tr><td colspan=2><table width= 100% ; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong>Screenshot</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong><a href="C:\Users\somnath.bhunia\workspace3\SN_GCC/\Screenshot\08-23-2017_18-19.png"><img src="file:///C:\Users\somnath.bhunia\workspace3\SN_GCC/\Screenshot\08-23-2017_18-19.png" alt=""height='300' width='300' border =1/> <br /></strong></td></tr></tbody></table></td></tr></tbody></table><br/>
+<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:red;font-size:12px;font-family:verdana;\><strong>Fail</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>One of the preventative task is not present</td></tr><tr><td colspan=2><table width= 100% ; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong>Screenshot</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong><a href="C:\Users\somnath.bhunia\workspace3\SN_GCC/\Screenshot\08-23-2017_18-23.png"><img src="file:///C:\Users\somnath.bhunia\workspace3\SN_GCC/\Screenshot\08-23-2017_18-23.png" alt=""height='300' width='300' border =1/> <br /></strong></td></tr></tbody></table></td></tr></tbody></table><br/>
+<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:red;font-size:12px;font-family:verdana;\><strong>Fail</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>One of the preventative task is not present</td></tr><tr><td colspan=2><table width= 100% ; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong>Screenshot</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong><a href="C:\Users\somnath.bhunia\workspace3\SN_GCC/\Screenshot\08-23-2017_18-26.png"><img src="file:///C:\Users\somnath.bhunia\workspace3\SN_GCC/\Screenshot\08-23-2017_18-26.png" alt=""height='300' width='300' border =1/> <br /></strong></td></tr></tbody></table></td></tr></tbody></table><br/>
+<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:red;font-size:12px;font-family:verdana;\><strong>Fail</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>One of the preventative task is not present</td></tr><tr><td colspan=2><table width= 100% ; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong>Screenshot</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong><a href="C:\Users\somnath.bhunia\workspace3\SN_GCC/\Screenshot\08-23-2017_18-30.png"><img src="file:///C:\Users\somnath.bhunia\workspace3\SN_GCC/\Screenshot\08-23-2017_18-30.png" alt=""height='300' width='300' border =1/> <br /></strong></td></tr></tbody></table></td></tr></tbody></table><br/>
+<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:red;font-size:12px;font-family:verdana;\><strong>Fail</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>One of the preventative task is not present</td></tr><tr><td colspan=2><table width= 100% ; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong>Screenshot</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong><a href="C:\Users\somnath.bhunia\workspace3\SN_GCC/\Screenshot\08-23-2017_18-33.png"><img src="file:///C:\Users\somnath.bhunia\workspace3\SN_GCC/\Screenshot\08-23-2017_18-33.png" alt=""height='300' width='300' border =1/> <br /></strong></td></tr></tbody></table></td></tr></tbody></table><br/>
+<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:red;font-size:12px;font-family:verdana;\><strong>Fail</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>One of the preventative task is not present</td></tr><tr><td colspan=2><table width= 100% ; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong>Screenshot</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong><a href="C:\Users\somnath.bhunia\workspace3\SN_GCC/\Screenshot\08-23-2017_18-37.png"><img src="file:///C:\Users\somnath.bhunia\workspace3\SN_GCC/\Screenshot\08-23-2017_18-37.png" alt=""height='300' width='300' border =1/> <br /></strong></td></tr></tbody></table></td></tr></tbody></table><br/>
+<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:red;font-size:12px;font-family:verdana;\><strong>Fail</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>One of the corrective task is not present</td></tr><tr><td colspan=2><table width= 100% ; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong>Screenshot</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong><a href="C:\Users\somnath.bhunia\workspace3\SN_GCC/\Screenshot\08-23-2017_18-40.png"><img src="file:///C:\Users\somnath.bhunia\workspace3\SN_GCC/\Screenshot\08-23-2017_18-40.png" alt=""height='300' width='300' border =1/> <br /></strong></td></tr></tbody></table></td></tr></tbody></table><br/>
+<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:red;font-size:12px;font-family:verdana;\><strong>Fail</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>One of the corrective task is not present</td></tr><tr><td colspan=2><table width= 100% ; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong>Screenshot</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong><a href="C:\Users\somnath.bhunia\workspace3\SN_GCC/\Screenshot\08-23-2017_18-44.png"><img src="file:///C:\Users\somnath.bhunia\workspace3\SN_GCC/\Screenshot\08-23-2017_18-44.png" alt=""height='300' width='300' border =1/> <br /></strong></td></tr></tbody></table></td></tr></tbody></table><br/>
+<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:red;font-size:12px;font-family:verdana;\><strong>Fail</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>One of the corrective task is not present</td></tr><tr><td colspan=2><table width= 100% ; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong>Screenshot</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong><a href="C:\Users\somnath.bhunia\workspace3\SN_GCC/\Screenshot\08-23-2017_18-48.png"><img src="file:///C:\Users\somnath.bhunia\workspace3\SN_GCC/\Screenshot\08-23-2017_18-48.png" alt=""height='300' width='300' border =1/> <br /></strong></td></tr></tbody></table></td></tr></tbody></table><br/>
+<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:red;font-size:12px;font-family:verdana;\><strong>Fail</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>One of the corrective task is not present</td></tr><tr><td colspan=2><table width= 100% ; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong>Screenshot</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong><a href="C:\Users\somnath.bhunia\workspace3\SN_GCC/\Screenshot\08-23-2017_18-51.png"><img src="file:///C:\Users\somnath.bhunia\workspace3\SN_GCC/\Screenshot\08-23-2017_18-51.png" alt=""height='300' width='300' border =1/> <br /></strong></td></tr></tbody></table></td></tr></tbody></table><br/>
+<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:red;font-size:12px;font-family:verdana;\><strong>Fail</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>One of the corrective task is not present</td></tr><tr><td colspan=2><table width= 100% ; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong>Screenshot</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong><a href="C:\Users\somnath.bhunia\workspace3\SN_GCC/\Screenshot\08-23-2017_18-55.png"><img src="file:///C:\Users\somnath.bhunia\workspace3\SN_GCC/\Screenshot\08-23-2017_18-55.png" alt=""height='300' width='300' border =1/> <br /></strong></td></tr></tbody></table></td></tr></tbody></table><br/>
+<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:red;font-size:12px;font-family:verdana;\><strong>Fail</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>One of the corrective task is not present</td></tr><tr><td colspan=2><table width= 100% ; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong>Screenshot</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong><a href="C:\Users\somnath.bhunia\workspace3\SN_GCC/\Screenshot\08-23-2017_18-59.png"><img src="file:///C:\Users\somnath.bhunia\workspace3\SN_GCC/\Screenshot\08-23-2017_18-59.png" alt=""height='300' width='300' border =1/> <br /></strong></td></tr></tbody></table></td></tr></tbody></table><br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">scripts.GCC_mainScript:mappingForHRL</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>HR Operations</td>
+<td>Payroll</td>
+<td>Incorrect Tax remittance</td>
+<td>1. Incorrect Tax remittance of XX amount to government agencies</td>
+<td>Client/Accenture</td>
+<td># Accenture Leadership within 2 hours after issue discovery.
+# Assess the  potential Business and  financial impact in terms of penalties as per Contract Liability Clause
+# Inform Client POC 
+# Work with Client POC in recouping the incorrect amounts/paying the incorrect amounts</td>
+<td># RCA (Find out point of failure) &amp; Preventive actions Submitted to Accenture Delivery Leadership 
+# RCA Submitted to Client within Agreed timelines.
+# Involve HR for any disciplinary actions</td>
+<td># &gt; 25 employees
+or &gt; $50,000</td>
+<td>Critical</td>
+<td>Next Tax Submission</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>MONDELEZ INTERNATIONAL INC.</td>
+<td>9940187226</td>
+<td>North America</td>
+<td>GBS Operations Delivery</td>
+<td>F&amp;A</td>
+<td>APAC</td>
+<td>India Delhi</td>
+<td>Sareen, Amit</td>
+<td>Rubin, Craig D.</td>
+<td>Sundaresan, Kannan</td>
+<td>Tewari, Neeta</td>
+<td>08-Dec-2014</td>
+<td>08-Jun-2020</td>
+<td>YES</td>
+<td>Demo agent</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Test</td>
+<td>1 - Critical</td>
+<td>2017-08-23</td>
+<td>2017-09-02 12:28:19</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">scripts.GCC_mainScript:mappingForHRL</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>HR Operations</td>
+<td>ELM</td>
+<td>Incorrect Redundancy/Severance /Exit processed</td>
+<td>1. Incorrect Redundancy/Severance payment impacting a country/region/geographical scope</td>
+<td>Client/Accenture</td>
+<td># Accenture Leadership within 2 hours after issue discovery.
+# Assess the  potential Business and  financial impact in terms of penalties as per Contract Liability Clause
+# Inform Client POC 
+# Work with Client Tech POC on correcting errors on an offline basis.
+# Work with Client POC in recouping the incorrect amounts/paying the incorrect amounts</td>
+<td># RCA (Find out point of failure) &amp; Preventive actions Submitted to Accenture Delivery Leadership 
+# RCA Submitted to Client within Agreed timelines.
+# Involve HR for any disciplinary actions</td>
+<td># &gt; 25 employees
+or &gt; $100,000</td>
+<td>Critical</td>
+<td>2 Days</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">scripts.GCC_mainScript:mappingForHRL</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>HR Operations</td>
+<td>ELM</td>
+<td>Incorrect mass upload / Manual updating with employee, employment &amp; Salary details</td>
+<td>1. Incorrect employee/employment/salary data impacting an country/ region/geographical scope. 
+2. Incorrect employee/employment/salary data impacting to special individual cases.</td>
+<td>Client/Accenture</td>
+<td># Accenture Leadership within 2 hours after issue discovery.
+# Assess the  potential Business and  financial impact in terms of penalties as per Contract Liability Clause
+# Inform Client POC 
+# Work with Client Tech POC on correcting errors on an offline basis.</td>
+<td># RCA (Find out point of failure) &amp; Preventive actions Submitted to Accenture Delivery Leadership 
+# RCA Submitted to Client within Agreed timelines.
+# Involve HR for any disciplinary actions</td>
+<td># &gt; 50 employees</td>
+<td>Critical</td>
+<td>3 Days</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">scripts.GCC_mainScript:clientDataConfiguration</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>y</td>
+<td>BEST BUY, INC.</td>
+<td>BBY-  F&amp;ABPO Transition</td>
+<td>Krishnan, Ananda</td>
+<td>F&amp;A</td>
+<td>ALL,FP&amp;A,O2C,Other,P2P,R2R</td>
+<td>P2P</td>
+<td>None&gt;Backlog of PR&apos;s&gt;Catalog wrong pricing&gt;Contract Admin - Backlog&gt;Contract Admin - wrong Contract value updated&gt;Contract sent to wrong supplier&gt;Other&gt;PO sent to wrong supplier&gt;Urgent PO Conversation - not done on time&gt;Collection Target Not Met&gt;Receivable items aged &gt;180 days &amp; not recoverable&gt;Invoices processed for Vendors under the list of countries embargo (Red &amp; Amber).&gt;Credit Orders on  Hold due to unapplied cash&gt;CSAT Score of Helpdesk (Net Promoters Score)&gt;Critical Vendor Payment Delay - Utility, Tax, Penalty etc.&gt;Backlog in Invoice Processing, Payments&gt;Duplicate Payments</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>AETNA</td>
+<td>9940020779</td>
+<td>North America</td>
+<td>Aetna SBC</td>
+<td>Healthcare</td>
+<td>APAC</td>
+<td>Philippines</td>
+<td>Sy, Jeannette G.</td>
+<td>Wright, Keith B.</td>
+<td>Dcosta, Veron Romeo</td>
+<td>Dcosta, Veron Romeo</td>
+<td>12-May-2005</td>
+<td>31-May-2020</td>
+<td>NO</td>
+<td>Demo agent</td>
+<td>Other</td>
+<td>Other</td>
+<td>Other</td>
+<td>Other</td>
+<td>Test</td>
+<td>3 - Medium</td>
+<td>2017-08-23</td>
+<td>2017-09-02 12:28:19</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">scripts.GCC_mainScript:mappingForHRL</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>HR Operations</td>
+<td>General Service Delivery Issue</td>
+<td>Regulatory &amp; Compliance misses</td>
+<td>Client asked to pay penalties for any regulatory and compliance misses arising out of activities performed by Accenture.</td>
+<td>Client</td>
+<td># Accenture Leadership within 2 hours after issue discovery.
+# Assess the  potential Business and  financial impact in terms of penalties as per Contract Liability Clause
+# Take direction from Contract Team /  Legal team
+# Involve HR POC</td>
+<td># RCA Submitted to Accenture Delivery Leadership 
+# RCA Submitted to Client within Agreed timelines.</td>
+<td># &gt;$ 50,000</td>
+<td>Critical</td>
+<td>2 Days</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m25">scripts.GCC_mainScript:mainScript</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th><th>Parameter #25</th><th>Parameter #26</th><th>Parameter #27</th><th>Parameter #28</th><th>Parameter #29</th></tr>
+<tr class="param stripe"><td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m26">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>HP INC.</td>
+<td>9940190682</td>
+<td>North America</td>
+<td>C3PO Mobilization</td>
+<td>Customer Service</td>
+<td>EALA</td>
+<td>Romania</td>
+<td>Baescu, Victor</td>
+<td>Collins, Michael F.</td>
+<td>Stovall, T. Kenneth</td>
+<td>Sayyad, Arshad</td>
+<td>09-Feb-2015</td>
+<td>31-Oct-2023</td>
+<td>YES</td>
+<td>Demo agent</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Test</td>
+<td>1 - Critical</td>
+<td>2017-08-23</td>
+<td>2017-09-02 12:28:19</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m27">scripts.GCC_mainScript:mappingForFA</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>F&amp;A</td>
+<td>P2P</td>
+<td>Receivable items aged &gt;180 days &amp; not recoverable</td>
+<td>1. XX value of receivables from the Customer ZZ that was aged YY.</td>
+<td>Client/Accenture</td>
+<td># Notify Client &amp; leadership with the initial assessment.
+# Check for all actions initiated for the recovery
+# Assess possibilities of collections to avoid bad debt
+# Ascertain requirement to move the debt to collection agency or any other payables for the same supplier
+# Provide the impact and value of collections and potential business impact</td>
+<td># Take appropriate steps to collect the receivables
+# Check if any payables are open and have the receivables allocated against the same 
+# Make the appropriate adjustments on the customer books and ensure the customer AR accounts are reconciled
+# Credit team publishes the report on all unresolved cases to all the impacted stakeholder’s daily</td>
+<td>&lt;$100k
+
+$100k to $&lt;500k
+
+&gt;$500k</td>
+<td>High</td>
+<td>10 days</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m28">scripts.GCC_mainScript:mappingForFA</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>F&amp;A</td>
+<td>R2R</td>
+<td>Missing Month End Close timelines</td>
+<td>1. Closing for the period &lt;&lt;Month or Quarter&gt;&gt; was not completed for XX regions/entities of the client and delayed by zz hours/days.
+2. Closing for the period &lt;&lt;Month or Quarter&gt;&gt; was not completed for XX regions/entities of the client and delayed by zz hours/days, due to Technology issues.</td>
+<td>Accenture</td>
+<td># Notify Client &amp; leadership with the initial assessment.
+# Ensure the risk of missed timelines is escalated to stakeholders.
+# Provide updates on help required or extension required to close the month end tasks.
+# Assess the cause and acknowledge the issue.
+# Provide clear timelines for resolution.</td>
+<td># Ensure we engage all stakeholders and escalate asking for help.
+# Ensure we have critical resources available to be able to respond and close.
+# Ensure we have the RCA performed and identify and implement controls with clear actionable and timelines to implement
+# Ensure we have a clear understanding of impact the delay in not closing the period on time and escalation path in month end calendar</td>
+<td>&gt;1 Day delay</td>
+<td>Critical</td>
+<td>1 day</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m29">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>DEUTSCHE BANK</td>
+<td>9940223046</td>
+<td>EALA</td>
+<td>Deutsche Bank - KYC Remediation</td>
+<td>Emerging - Industry Specific</td>
+<td>EALA</td>
+<td>UK</td>
+<td>Gent, Adam</td>
+<td>Crossley, Julian C.</td>
+<td></td>
+<td>Gent, Adam</td>
+<td>10-Aug-2016</td>
+<td>28-Feb-2018</td>
+<td>YES</td>
+<td>Demo agent</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Test</td>
+<td>2 - High</td>
+<td>2017-08-23</td>
+<td>2017-09-02 12:28:19</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m30">scripts.GCC_mainScript:mainScript</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th><th>Parameter #25</th><th>Parameter #26</th><th>Parameter #27</th><th>Parameter #28</th><th>Parameter #29</th></tr>
+<tr class="param stripe"><td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Click here to update Client data mappings ----&gt;</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m31">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>LIBERTY GLOBAL</td>
+<td>9940184027</td>
+<td>EALA</td>
+<td>Jaguar</td>
+<td>F&amp;A</td>
+<td>APAC</td>
+<td>India Bangalore</td>
+<td>Acharya, Praveen</td>
+<td>Rangarajan, Rashmi</td>
+<td>Viswathmula, Ravindra</td>
+<td>Kumar, A. X.</td>
+<td>01-Nov-2014</td>
+<td>25-Jun-2019</td>
+<td>NO</td>
+<td>Demo agent</td>
+<td></td>
+<td>P2P</td>
+<td></td>
+<td>Duplicate Payments</td>
+<td>Test</td>
+<td>3 - Medium</td>
+<td>2017-08-23</td>
+<td>2017-09-02 12:28:19</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m32">scripts.GCC_mainScript:mappingForHRL</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>HR Operations</td>
+<td>Payroll</td>
+<td>Overpayment/Underpayment/No Payment</td>
+<td>1. Incorrect payment impacting  country /region/ geographical scope 
+2. Incorrect payment impacting identified individual(s) cases</td>
+<td>Client/Accenture</td>
+<td># Accenture Leadership within 2 hours after issue discovery.
+# Assess the  potential Business and  financial impact in terms of penalties as per Contract Liability Clause
+# Inform Client POC 
+# Work with Client POC in recouping the incorrect amounts/paying the incorrect amounts</td>
+<td># RCA (Find out point of failure) &amp; Preventive actions Submitted to Accenture Delivery Leadership 
+# RCA Submitted to Client within Agreed timelines.
+# Involve HR for any disciplinary actions</td>
+<td># &gt; 50 employees
+or &gt; $100,000</td>
+<td>Critical</td>
+<td>2 Days</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m33">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>PROCTER AND GAMBLE</td>
+<td>9940137930</td>
+<td>North America</td>
+<td>P&amp;G - Accenture One BPO Commercial Frame</td>
+<td>Digital Marketing</td>
+<td>APAC</td>
+<td>India Mumbai</td>
+<td>Fernando, John</td>
+<td>Akalin, Emre</td>
+<td></td>
+<td>Fernando, John</td>
+<td>01-Feb-2012</td>
+<td>28-Feb-2020</td>
+<td>NO</td>
+<td>Demo agent</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Test</td>
+<td>2 - High</td>
+<td>2017-08-23</td>
+<td>2017-09-02 12:28:19</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m34">scripts.GCC_mainScript:mappingForHRL</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>HR Operations</td>
+<td>ELM</td>
+<td>Incorrect New Hire set up/Benefits/Leave enrollment</td>
+<td>Incorrect set up of  New Hires leading to or impacting their Benefits, Pay, Facility and IT Access, Data Privacy issues</td>
+<td>Client/Accenture</td>
+<td># Accenture Leadership within 2 hours after issue discovery.
+# Assess the  potential Business and  financial impact in terms of penalties as per Contract Liability Clause
+# Inform Client POC 
+# Work with Client Tech POC on correcting errors on an offline basis.</td>
+<td># RCA Submitted to Accenture Delivery Leadership.
+# RCA Submitted to Client within Agreed timelines.</td>
+<td># &gt; 25 employees</td>
+<td>High</td>
+<td>3 Days</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m35">scripts.GCC_mainScript:clientDataConfiguration</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>y</td>
+<td>BEST BUY, INC.</td>
+<td>BBY-  F&amp;ABPO Transition</td>
+<td>Krishnan, Ananda</td>
+<td>F&amp;A</td>
+<td>ALL,FP&amp;A,O2C,Other,P2P,R2R</td>
+<td>Other</td>
+<td>None&gt;Other</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m36">scripts.GCC_mainScript:mappingForFA</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>F&amp;A</td>
+<td>P2P</td>
+<td>Credit Orders on  Hold due to unapplied cash</td>
+<td>1. XX value of receivables not applied to the customer entries, resulting in customer being placed on credit hold of a value of YY</td>
+<td>Client/Accenture</td>
+<td># Notify Client &amp; leadership with the initial assessment.
+# Check for all actions to rectify and get the cash applied to the customer account and release the credit hold
+# RCA for the issue and controls to avoid this from recurring
+# Provide the impact and potential business impact</td>
+<td># Make the appropriate adjustments on the customer books and ensure the customer AR accounts are reconciled
+# Automated reports to the credit teams on the orders on hold at regular intervals. 
+# Credit team publishes the report on all unresolved cases to all the impacted stakeholder’s daily</td>
+<td>&lt;$100k
+
+$100k to $&lt;500k
+
+&gt;$500k</td>
+<td>High</td>
+<td>2 days</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m37">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>FACEBOOK INC.</td>
+<td>9940126635</td>
+<td>North America</td>
+<td>F&amp;A Outsourcing</td>
+<td>F&amp;A</td>
+<td>EALA</td>
+<td>Poland</td>
+<td>Orpiszewska, Beata</td>
+<td>Rodriguez, Rene A.</td>
+<td>Master, Jal</td>
+<td>Tyne, Raymond J.</td>
+<td>01-Aug-2011</td>
+<td>31-Dec-2019</td>
+<td>NO</td>
+<td>Demo agent</td>
+<td></td>
+<td>P2P</td>
+<td></td>
+<td>PO sent to wrong supplier</td>
+<td>Test</td>
+<td>1 - Critical</td>
+<td>2017-08-23</td>
+<td>2017-09-02 12:28:19</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m38">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>DEUTSCHE BANK</td>
+<td>9940002413</td>
+<td>EALA</td>
+<td>S2P SERVICE DELIVERY</td>
+<td>Sourcing and Procurement</td>
+<td>EALA</td>
+<td>UK</td>
+<td>Smith, Jacqueline E.</td>
+<td>Burton, Jonathan D.</td>
+<td></td>
+<td>Grandhi, Viswanadham</td>
+<td>01-Jan-2004</td>
+<td>31-Dec-2016</td>
+<td>NO</td>
+<td>Demo agent</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Test</td>
+<td>1 - Critical</td>
+<td>2017-08-23</td>
+<td>2017-09-02 12:28:19</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m39">scripts.GCC_mainScript:mappingForFA</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>F&amp;A</td>
+<td>P2P</td>
+<td>Critical Vendor Payment Delay - Utility, Tax, Penalty etc.</td>
+<td>1. YY number of invoices valuing XX for the ZZ Vendor for the critical tasks / utilities was not paid on time or incorrectly Paid. 
+2. Due to the delay / inaccuracy xx value penalty to be paid to the client.</td>
+<td>Client/Accenture</td>
+<td># Notify client and leadership with the initial assessment.
+# Perform RCA
+# Provide the impact and value of payment missed and potential business impact</td>
+<td># Plan to execute the payment and provide the potential proposal and timelines by when the payment would be executed
+# Detailed RCA for missing the payment schedule and actions to avoid this issue from recurring</td>
+<td># &lt;$100k
+
+# $100k to $&lt;500k
+
+# &gt;$500k</td>
+<td>Critical</td>
+<td>2 days</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m40">scripts.GCC_mainScript:mappingForFA</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>F&amp;A</td>
+<td>P2P</td>
+<td>CSAT Score of Helpdesk (Net Promoters Score)</td>
+<td>1. CSAT Scores for the AA Activity.
+2. Scores of xx Vs Target of yy</td>
+<td>Client</td>
+<td># Notify client and leadership with the initial assessment.
+# Perform RCA</td>
+<td># Define action plan to improve scores.
+# Align with client on roadmap and any support required from their end.</td>
+<td># &lt;60%
+# 60 - 70%
+# 80 - 70%</td>
+<td>Critical</td>
+<td>14 days</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m41">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>ANTHEM, INC.</td>
+<td>9940168924</td>
+<td>North America</td>
+<td>WLP Health Mgmt BPO</td>
+<td>Healthcare</td>
+<td>APAC</td>
+<td>Philippines</td>
+<td>Velasco, Lizzy D.</td>
+<td>Friedman, Lauren E.</td>
+<td>Mani, Ramesh K.</td>
+<td>Velasco, Lizzy D.</td>
+<td>13-Feb-2014</td>
+<td>28-Feb-2018</td>
+<td>NO</td>
+<td>Demo agent</td>
+<td>Other</td>
+<td>Other</td>
+<td>Other</td>
+<td>Other</td>
+<td>Test</td>
+<td>3 - Medium</td>
+<td>2017-08-23</td>
+<td>2017-09-02 12:28:19</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m42">scripts.GCC_mainScript:mappingForHRL</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>HR Operations</td>
+<td>ELM</td>
+<td>Incorrect mass communication</td>
+<td>1. Incorrect mass communication to a large group XX number of individuals (&gt;10% of a country or company code)</td>
+<td>Client/Accenture</td>
+<td># ASOC Team contacted and Incident raised. 
+# Accenture Leadership notified within 2 hours after issue discovery. 
+# Accenture Leadership within 2 hours after issue discovery.
+# Assess the  potential Business and  financial impact in terms of penalties as per Contract Liability Clause
+# Client notified after receiving go ahead from ASOC Team and Accenture Leadership.
+# Work with Client POC on correct communication and roll out correct communication</td>
+<td># RCA Submitted to Accenture Leadership through.
+# RCA Submitted to Client within Agreed timelines.</td>
+<td># &gt;50 employees</td>
+<td>Critical</td>
+<td>2 hours</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m43">scripts.GCC_mainScript:clientDataConfiguration</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>BEST BUY, INC.</td>
+<td>HRO Services</td>
+<td>Chadwick, Sondra L.</td>
+<td>HR Operations</td>
+<td>ELM,General Service Delivery Issue,Other,Payroll,Talent Acquisition</td>
+<td>General Service Delivery Issue</td>
+<td>None&gt;Attrition&gt;Data Privacy Issue/Incident&gt;Escalation from Client Leadership&gt;Hiring Delays&gt;Other&gt;SLA miss&gt;Regulatory &amp; Compliance misses&gt;Potential SLA miss&gt;Pushback from Client on Innovation</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m44">scripts.GCC_mainScript:mappingForFA</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>F&amp;A</td>
+<td>R2R</td>
+<td>Delay in Statutory Submission (VAT, TAX etc.)</td>
+<td>1. XX Statutory returns were submitted with a delay of ZZ days.
+2. Value of potential penalty for the delay is AA</td>
+<td>Accenture</td>
+<td># Notify Client &amp; leadership with the initial assessment.  
+# Take actions to resolve and submit the return asap
+# Perform RCA 
+# Assess impact of delay &amp; inform all stakeholders</td>
+<td># Review the current reporting and review mechanism 
+# Ensure we engage all stakeholders and escalate asking for help where required
+# Ensure we have the RCA performed and identify and implement controls with clear actionable and timelines to implement
+# Ensure clear understanding and communication of impact the delayed submissions and have the controls to ensure this is not repeated.</td>
+<td>#&gt;3 Days Delay</td>
+<td>Critical</td>
+<td>3 days</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m45">scripts.GCC_mainScript:mappingForFA</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>F&amp;A</td>
+<td>P2P</td>
+<td>Invoices processed for Vendors under the list of countries embargo (Red &amp; Amber).</td>
+<td>1. YY number of invoices valuing XX for the ZZ Vendor located in AA Embargo Country. 
+2. Repeated processing of supplier within the last 6 months - X times</td>
+<td>Client/Accenture</td>
+<td># Notify client and leadership with the initial assessment.
+# Inform the deal Legal Team with all the details, to assess potential Threat.
+# Perform RCA
+# Awareness of Embargo Countries to all team members
+# Include Process controls to avoid recurrence of such postings</td>
+<td># Reverse the Transaction if the transaction is not Paid.
+# Validate if any other similar transactions have been processed across all Embargo countries &amp; take corrective action.
+# Agree with the client on responsibility of Embargo Country Scope.
+# Consult with Accenture Legal team &amp; agree next steps. 
+# Amend Contract to include the agreed changes.</td>
+<td>&gt;0</td>
+<td>Critical</td>
+<td>30 days</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m46">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>BAKER HUGHES INCORPORATED</td>
+<td>9940079319</td>
+<td>North America</td>
+<td>FAO BTO</td>
+<td>F&amp;A</td>
+<td>EALA</td>
+<td>Buenos Aires</td>
+<td>Portela, Andrea K.</td>
+<td>Sharpe, Keith D.</td>
+<td>Collado, Victoria B.</td>
+<td>Collado, Victoria B.</td>
+<td>01-Dec-2008</td>
+<td>31-Dec-2021</td>
+<td>NO</td>
+<td>Demo agent</td>
+<td></td>
+<td>R2R</td>
+<td></td>
+<td>Missing Month End Close timelines</td>
+<td>Test</td>
+<td>3 - Medium</td>
+<td>2017-08-23</td>
+<td>2017-09-02 12:28:19</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m47">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>CIGNA</td>
+<td>9940199823</td>
+<td>North America</td>
+<td>Platinum - CIGNA</td>
+<td>Healthcare</td>
+<td>APAC</td>
+<td>Philippines</td>
+<td>Fernandez, Clark J. S.</td>
+<td>Demko, Michael</td>
+<td>Fernandez, Clark J. S.</td>
+<td>Fernandez, Clark J. S.</td>
+<td>01-Sep-2015</td>
+<td>31-Aug-2018</td>
+<td>NO</td>
+<td>Demo agent</td>
+<td>Other</td>
+<td>Other</td>
+<td>Other</td>
+<td>Other</td>
+<td>Test</td>
+<td>3 - Medium</td>
+<td>2017-08-23</td>
+<td>2017-09-02 12:28:19</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m48">scripts.GCC_mainScript:mainScript</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th><th>Parameter #25</th><th>Parameter #26</th><th>Parameter #27</th><th>Parameter #28</th><th>Parameter #29</th></tr>
+<tr class="param stripe"><td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m49">scripts.GCC_mainScript:mappingForHRL</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>HR Operations</td>
+<td>Talent Acquisition</td>
+<td>Delay in VIP/Sr. Talent requisition closure</td>
+<td>SLA breach in closing a VIP requisition which has a direct client impact.</td>
+<td>Accenture</td>
+<td># Accenture Leadership within 4 hours after issue discovery
+# Inform Client POC
+# Involve Accenture Internal Recruitment Leadership to get additional help
+# Take help from Accenture Agile Workforce to source, screen profile</td>
+<td># RCA Submitted to Accenture Delivery Leadership 
+# RCA Submitted to Client within Agreed timelines.</td>
+<td># &gt; Above VP/Director level</td>
+<td>High</td>
+<td>3 Days</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m50">scripts.GCC_mainScript:mappingForFA</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>F&amp;A</td>
+<td>P2P</td>
+<td>Backlog in Invoice Processing, Payments</td>
+<td>1. X number of invoices not processed within zz TAT (agreed timelines), due to YY Reason.
+2. Ageing of the Backlog &lt;3 Days and &gt; 5 Days.</td>
+<td>Client/Accenture</td>
+<td># Notify client and leadership with the initial assessment.
+# Define a Backlog Clearance Plan.
+# Perform RCA
+# Provide the impact of volume completion delay</td>
+<td># Add more resources to address the backlog
+# Identify all Critical Vendors &amp; high value invoices to priorities clearance.
+# Provide regular updates on productivity achieved
+# Keep QA in check while addressing the Volume
+# Suggest the process improvement/automation etc. if applicable</td>
+<td># Backlog= 5 days Base Volumes
+
+# Backlog = &lt; 10 days Base Volumes
+
+# Backlog= &gt; 10 days Base Volumes</td>
+<td>Critical</td>
+<td>14 days</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m51">scripts.GCC_mainScript:clientDataConfiguration</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>y</td>
+<td>BEST BUY, INC.</td>
+<td>BBY-  F&amp;ABPO Transition</td>
+<td>Krishnan, Ananda</td>
+<td>F&amp;A</td>
+<td>ALL,FP&amp;A,O2C,Other,P2P,R2R</td>
+<td>FP&amp;A</td>
+<td>None&gt;Other&gt;Missing Budgeting &amp; Forecast submission timelines</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m52">scripts.GCC_mainScript:mappingForHRL</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>HR Operations</td>
+<td>General Service Delivery Issue</td>
+<td>Escalation from Client Leadership</td>
+<td>Any escalation which reaches to Client&apos;s Board, C-Suite directly, bypassing the standard governance channels, and reached Accenture delivery centers</td>
+<td>Client</td>
+<td># Accenture Leadership within 2 hours after issue discovery.
+# Assess the  potential Business and  financial impact in terms of penalties as per Contract Liability Clause
+# Inform Client POC</td>
+<td># RCA (Find out point of failure) &amp; Preventive actions Submitted to Accenture Delivery Leadership 
+# RCA Submitted to Client within Agreed timelines.</td>
+<td>#NA</td>
+<td>Critical</td>
+<td>1 Day</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m53">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>GOOGLE</td>
+<td>9940211737</td>
+<td>North America</td>
+<td>WSIGGoogle Payroll Support Extension</td>
+<td>HR Operations</td>
+<td>APAC</td>
+<td>Rest of APAC (Indo, Malay, Singa, Japan)</td>
+<td>Narsai, Dipesh</td>
+<td>Ramkelwan, Nival</td>
+<td>Master, Jal</td>
+<td>Master, Jal</td>
+<td>01-Feb-2016</td>
+<td>31-Dec-2017</td>
+<td>NO</td>
+<td>Demo agent</td>
+<td></td>
+<td>Talent Acquisition</td>
+<td></td>
+<td>Incorrect offer letter provided</td>
+<td>Test</td>
+<td>3 - Medium</td>
+<td>2017-08-23</td>
+<td>2017-09-02 12:28:19</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m54">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>BAKER HUGHES INCORPORATED</td>
+<td>9940079319</td>
+<td>North America</td>
+<td>FAO BTO</td>
+<td>F&amp;A</td>
+<td>APAC</td>
+<td>Philippines</td>
+<td>Baltazar, Jerilee A.</td>
+<td>Sharpe, Keith D.</td>
+<td>Collado, Victoria B.</td>
+<td>Collado, Victoria B.</td>
+<td>01-Dec-2008</td>
+<td>31-Dec-2021</td>
+<td>NO</td>
+<td>Demo agent</td>
+<td></td>
+<td>FP&amp;A</td>
+<td></td>
+<td>Missing Budgeting &amp; Forecast submission timelines</td>
+<td>Test</td>
+<td>2 - High</td>
+<td>2017-08-23</td>
+<td>2017-09-02 12:28:19</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m55">scripts.GCC_mainScript:mappingForHRL</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>HR Operations</td>
+<td>ELM</td>
+<td>Incorrect Calculation &amp; Payment of Bonus/Merit hikes/Employee Stock Options</td>
+<td>1. Incorrect Bonus/Merit payment impacting a country//geographical scope. 
+2. Incorrect payment impacting to  individual cases</td>
+<td>Client/Accenture</td>
+<td># Accenture Leadership within 2 hours after issue discovery.
+# Assess the  potential Business and  financial impact in terms of penalties as per Contract Liability Clause
+# Inform Client POC 
+# Work with Client Tech POC on correcting errors on an offline basis.
+# Work with Client POC in recouping the incorrect amounts/paying the incorrect amounts</td>
+<td># RCA (Find out point of failure) &amp; Preventive actions Submitted to Accenture Delivery Leadership 
+# RCA Submitted to Client within Agreed timelines.
+# Involve HR for any disciplinary actions</td>
+<td># &gt; 25 employees
+or &gt; $100,000</td>
+<td>High</td>
+<td>3 Days</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m56">scripts.GCC_mainScript:mappingForFA</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>F&amp;A</td>
+<td>P2P</td>
+<td>Collection Target Not Met</td>
+<td>X% of Collection Target for a value of YY, was not collected during the zz month.</td>
+<td>Accenture</td>
+<td># Notify Client &amp; leadership with the initial assessment.
+# RCA for the reason for shortfall in Collections.
+# Provide the impact and potential business impact</td>
+<td># Define action plan and align with client POC.
+# Track collection status and provide updates to local Leadership &amp; Client POC</td>
+<td>&lt;5%
+5% - &lt;10%
+&gt;10%</td>
+<td>Critical</td>
+<td>10 days</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m57">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>BEST BUY, INC.</td>
+<td>9940088554</td>
+<td>North America</td>
+<td>HRO Services</td>
+<td>HR Operations</td>
+<td>North America</td>
+<td>Rest of US</td>
+<td>Chadwick, Sondra L.</td>
+<td>Marthaler, Greg M.</td>
+<td>Stovall, T. Kenneth</td>
+<td>Chadwick, Sondra L.</td>
+<td>01-Jun-2009</td>
+<td>29-Feb-2020</td>
+<td>NO</td>
+<td>Demo agent</td>
+<td>ELM, General Service Delivery Issue, Other, Payroll, Talent Acquisition</td>
+<td>ELM</td>
+<td>Other@Incorrect Redundancy/Severance /Exit processed@Incorrect Calculation &amp; Payment of Bonus/Merit hikes/Employee Stock Options@Incorrect mass upload / Manual updating with employee, employment &amp; Salary details@Incorrect New Hire set up/Benefits/Leave enrollment@Incorrect mass communication</td>
+<td>Incorrect mass communication</td>
+<td>Test</td>
+<td>1 - Critical</td>
+<td>2017-08-23</td>
+<td>2017-09-02 12:28:19</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m58">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>CIGNA</td>
+<td>9940141627</td>
+<td>North America</td>
+<td>Cigna - Cypress</td>
+<td>Sourcing and Procurement</td>
+<td>APAC</td>
+<td>India Bangalore</td>
+<td>Iddimi, Sharath</td>
+<td>Demko, Michael</td>
+<td>Fernandez, Clark J. S.</td>
+<td>Fernandez, Clark J. S.</td>
+<td>11-Mar-2012</td>
+<td>30-Sep-2018</td>
+<td>NO</td>
+<td>Demo agent</td>
+<td>Other</td>
+<td>Other</td>
+<td>Other</td>
+<td>Other</td>
+<td>Test</td>
+<td>3 - Medium</td>
+<td>2017-08-23</td>
+<td>2017-09-02 12:28:19</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m59">scripts.GCC_mainScript:mappingForFA</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>F&amp;A</td>
+<td>R2R</td>
+<td>Late Entries (Entries posted after the agreed timelines due to Accenture delays)</td>
+<td>1. Journal entries for XX &lt;&lt;Amount&gt;&gt; for &lt;&lt;period&gt;&gt; were posted after cut off / Missed that impacted B/S / P&amp;L by YY &lt;&lt;Amount&gt;&gt;</td>
+<td>Accenture</td>
+<td># Notify Client &amp; leadership with the initial assessment.
+# Ensure the journal is accurately posted and confirm to client POC.
+# Post necessary correction entries if required to ensure the impact is controlled before finalization of accounts
+# Assess the cause and acknowledge the issue.
+# Provide RCA to avoid this from recurring in the future.</td>
+<td># Ensure we engage all stakeholders and escalate asking for help.
+# Ensure we have critical resources available to be able to respond and close.
+# Ensure we have the RCA performed and identify and implement controls with clear actionable and timelines to implement
+# Ensure we have a clear understanding of impact of delayed JV posting &amp; awareness passed onto the team. 
+# Revisit the current Month End calendar and ensure pre-checks are triggers are clearly laid out for dependencies to complete the journal entries.  
+# Agree on timelines to receive and review of inputs from clients</td>
+<td>#&lt;$100k
+
+#$100k to $&lt;500k
+
+#&gt;$500k</td>
+<td>Critical</td>
+<td>1 day</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m60">scripts.GCC_mainScript:mappingForHRL</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>HR Operations</td>
+<td>General Service Delivery Issue</td>
+<td>Potential SLA miss</td>
+<td>SLA miss resulting in  financial penalties (this could be due to volume spikes or operational reasons).</td>
+<td>Client/Accenture</td>
+<td># Accenture Leadership within 2 hours after issue discovery.
+# Assess the  potential Business and  financial impact in terms of penalties as per Contract Liability Clause
+# Inform Client POC</td>
+<td># RCA (Find out point of failure) &amp; Preventive actions Submitted to Accenture Delivery Leadership 
+# Initiate recovery plan for next month/quarters
+# Align client POC on the recovery plan &amp;  share RCA .</td>
+<td># &gt;$ 50,000</td>
+<td>Critical</td>
+<td>2 Days</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m61">scripts.GCC_mainScript:mappingForHRL</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>HR Operations</td>
+<td>General Service Delivery Issue</td>
+<td>Delay in Hiring resources for critical project</td>
+<td>Delay from Accenture Recruitment Team impacting a critical project/KT</td>
+<td>Accenture</td>
+<td># Accenture Leadership notified with details Project and impact of delay in getting resource</td>
+<td># Share detailed analysis along with Accenture recruitment Leadership to Accenture Leadership
+# Follow up on progress</td>
+<td># &gt;20FTEs</td>
+<td>Medium</td>
+<td>5 Days</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m62">scripts.GCC_mainScript:mappingForFA</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>F&amp;A</td>
+<td>FP&amp;A</td>
+<td>Missing Budgeting &amp; Forecast submission timelines</td>
+<td>1. AA Report submission for the period &lt;&lt;Month or Quarter&gt;&gt; was not completed for XX regions/entities of the client and delayed by zz hours/days.
+2. Impact of the delay is xx Value.</td>
+<td>Accenture</td>
+<td># Notify Client &amp; leadership with the initial assessment.
+# Ensure the risk of missed timelines is escalated to stakeholders.
+# Provide updates on help required or extension required to complete the reports.
+# Assess the cause and acknowledge the issue.
+# Provide clear timelines for resolution.</td>
+<td># Ensure we engage all stakeholders and escalate asking for help.
+# Ensure we have critical resources available to be able to respond and complete the tasks.
+# Ensure we have the RCA performed and identify and implement controls with clear actionable and timelines to implement
+# Ensure we have a clear understanding of impact the delay in report submission and escalation path in month end calendar</td>
+<td>#&gt;1 Day delay</td>
+<td>Critical</td>
+<td>1 day</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m63">scripts.GCC_mainScript:clientDataConfiguration</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>y</td>
+<td>BEST BUY, INC.</td>
+<td>BBY-  F&amp;ABPO Transition</td>
+<td>Krishnan, Ananda</td>
+<td>F&amp;A</td>
+<td>ALL,FP&amp;A,O2C,Other,P2P,R2R</td>
+<td>R2R</td>
+<td>None&gt;Other&gt;Delay in Statutory Submission (VAT, TAX etc.)&gt;Missing Month End Close timelines&gt;Late Entries (Entries posted after the agreed timelines due to Accenture delays)</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m64">scripts.GCC_mainScript:clientDataConfiguration</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>BEST BUY, INC.</td>
+<td>HRO Services</td>
+<td>Chadwick, Sondra L.</td>
+<td>HR Operations</td>
+<td>ELM,General Service Delivery Issue,Other,Payroll,Talent Acquisition</td>
+<td>Other</td>
+<td>None&gt;Other</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m65">scripts.GCC_mainScript:mappingForHRL</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>HR Operations</td>
+<td>Talent Acquisition</td>
+<td>Incorrect offer letter provided</td>
+<td>1. Incorrect offer letter provided to  candidate with incorrect Compensation/Levels/Benefits/Job Role</td>
+<td>Accenture</td>
+<td># Accenture Leadership notified within 2 hours after issue discovery. 
+# Client notified after receiving go ahead from Accenture Leadership.
+# Work with Client POC to issue corrected &amp; new offer letter.
+# Work with ELM team to update HR ERP with correct offer details.</td>
+<td># RCA (Find out point of failure) &amp; Preventive actions Submitted to Accenture Delivery Leadership 
+# RCA Submitted to Client within Agreed timelines.
+# Involve HR for any disciplinary actions</td>
+<td># &gt; 25 employees</td>
+<td>High</td>
+<td>3 Days</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m66">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>MICROSOFT CORPORATION</td>
+<td>9940176934</td>
+<td>EALA</td>
+<td>CS GLOBAL WWCS AND WOCS</td>
+<td>F&amp;A</td>
+<td>APAC</td>
+<td>Greater China</td>
+<td>Piao, Guangwen</td>
+<td>Wright, Joseph A.</td>
+<td>Lakshminarasimhan, C.</td>
+<td>Wright, Joseph A.</td>
+<td>01-Jun-2014</td>
+<td>31-Aug-2021</td>
+<td>NO</td>
+<td>Demo agent</td>
+<td></td>
+<td>NO</td>
+<td></td>
+<td>NO</td>
+<td>Test</td>
+<td>2 - High</td>
+<td>2017-08-23</td>
+<td>2017-09-02 12:28:19</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m67">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>AETNA</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Healthcare</td>
+<td></td>
+<td></td>
+<td>Rana, Rajesh</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Demo agent</td>
+<td>Other</td>
+<td>Other</td>
+<td>Other</td>
+<td>Other</td>
+<td>Test</td>
+<td>3 - Medium</td>
+<td>2017-08-23</td>
+<td>2017-09-02 12:28:19</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m68">scripts.GCC_mainScript:clientDataConfiguration</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>y</td>
+<td>BEST BUY, INC.</td>
+<td>BBY-  F&amp;ABPO Transition</td>
+<td>Krishnan, Ananda</td>
+<td>F&amp;A</td>
+<td>ALL,FP&amp;A,O2C,Other,P2P,R2R</td>
+<td>ALL</td>
+<td>None&gt;Other&gt;Data Breach/Privacy Issues</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m69">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>y</td>
+<td>BEST BUY, INC.</td>
+<td>9940088554</td>
+<td>North America</td>
+<td>BBY-  F&amp;ABPO Transition</td>
+<td>F&amp;A</td>
+<td>North America</td>
+<td>Rest of US</td>
+<td>Krishnan, Ananda</td>
+<td>Marthaler, Greg M.</td>
+<td>Stovall, T. Kenneth</td>
+<td>Chadwick, Sondra L.</td>
+<td>01-Jun-2009</td>
+<td>29-Feb-2020</td>
+<td>NO</td>
+<td>Demo agent</td>
+<td></td>
+<td>ALL</td>
+<td></td>
+<td>Data Breach/Privacy Issues</td>
+<td>Test</td>
+<td>3 - Medium</td>
+<td>2017-08-23</td>
+<td>2017-09-02 12:28:19</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="24">
+<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong>Info</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>The INCIDENT number is = INC0001266</td></tr></tbody></table><br/>
+<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:Green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>Incident INC0001266 has been created for client - BEST BUY, INC.</td></tr></tbody></table><br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m70">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>ANTHEM, INC.</td>
+<td>9940131575</td>
+<td>North America</td>
+<td>Anthem BPO MSA</td>
+<td>Healthcare</td>
+<td>APAC</td>
+<td>India Chennai</td>
+<td>Chamoli, Sanjay</td>
+<td>Friedman, Lauren E.</td>
+<td>Mani, Ramesh K.</td>
+<td>Sajan, Nizar</td>
+<td>01-Oct-2011</td>
+<td>31-Dec-2019</td>
+<td>NO</td>
+<td>Demo agent</td>
+<td>Other</td>
+<td>Other</td>
+<td>Other</td>
+<td>Other</td>
+<td>Test</td>
+<td>3 - Medium</td>
+<td>2017-08-23</td>
+<td>2017-09-02 12:28:19</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m71">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>PROCTER AND GAMBLE</td>
+<td>9940194850</td>
+<td>North America</td>
+<td>P&amp;G Duracell</td>
+<td>Sourcing and Procurement</td>
+<td>North America</td>
+<td>Costa Rica</td>
+<td>Díaz, Alberto</td>
+<td>Winters, Julie H.</td>
+<td></td>
+<td>Hegde, Nagachanda J.</td>
+<td>18-May-2015</td>
+<td>31-Dec-2018</td>
+<td>NO</td>
+<td>Demo agent</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Test</td>
+<td>2 - High</td>
+<td>2017-08-23</td>
+<td>2017-09-02 12:28:19</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m72">scripts.GCC_mainScript:clientData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>HP INC.</td>
+<td>9940216501</td>
+<td>North America</td>
+<td>HPI:Sales &amp;Partner Learning University</td>
+<td>Talent - Learning</td>
+<td>APAC</td>
+<td>India Mumbai</td>
+<td>Cherla Sastry, Anita</td>
+<td>Passow, Ashley E.</td>
+<td>Neumann, Paul J.</td>
+<td>Jones, Erica J.</td>
+<td>18-Apr-2016</td>
+<td>30-Nov-2021</td>
+<td>NO</td>
+<td>Demo agent</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Test</td>
+<td>1 - Critical</td>
+<td>2017-08-23</td>
+<td>2017-09-02 12:28:19</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m73">scripts.GCC_mainScript:mainScript</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th><th>Parameter #25</th><th>Parameter #26</th><th>Parameter #27</th><th>Parameter #28</th><th>Parameter #29</th></tr>
+<tr class="param stripe"><td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m74">scripts.GCC_mainScript:mappingForHRL</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th></tr>
+<tr class="param stripe"><td>n</td>
+<td>HR Operations</td>
+<td>General Service Delivery Issue</td>
+<td>Pushback from Client on Innovation</td>
+<td>Client stakeholder is not supportive of Automation/Robotics which may have led to significant savings for Client&apos;s Org/Accenture</td>
+<td>Accenture</td>
+<td># Accenture Leadership notified with details of the project and potential outcome.</td>
+<td># Share detailed analysis along with BE Leadership to Accenture Leadership
+# Follow up on progress</td>
+<td># 0 CI/Automation in 6 months</td>
+<td>Medium</td>
+<td>5 Days</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>
